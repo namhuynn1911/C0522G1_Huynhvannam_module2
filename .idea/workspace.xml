@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7a53b8-e305-412b-a885-32f9cd162e1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss1_introduction/exercise/ChangeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss1_introduction/exercise/CurrencyConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss1_introduction/exercise/ShowName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss1_introduction/practice/BMI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss1_introduction/practice/Equation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss1_introduction/practice/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss2_loop/exercise/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss2_loop/exercise/Prime100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss2_loop/exercise/ShowTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss2_loop/practice/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3_array/exercise/DeleteElementArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3_array/practice/Array2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3_array/practice/DemoArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3_array/practice/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3_array/practice/SorsArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/New Text Document.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +41,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.ChangeNumbers">
-    <configuration name="BMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1_introduction.practice.BMI" />
+  <component name="RunManager" selected="Application.Prime100">
+    <configuration name="Array2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_array.practice.Array2D" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1_introduction.practice.*" />
+          <option name="PATTERN" value="ss3_array.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1_introduction.exercise.ChangeNumbers" />
+    <configuration name="Prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss2_loop.exercise.Prime" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1_introduction.exercise.*" />
+          <option name="PATTERN" value="ss2_loop.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1_introduction.exercise.CurrencyConversion" />
+    <configuration name="Prime100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss2_loop.exercise.Prime100" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1_introduction.exercise.*" />
+          <option name="PATTERN" value="ss2_loop.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1_introduction.practice.LeapYear" />
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_array.practice.ReverseArray" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1_introduction.practice.*" />
+          <option name="PATTERN" value="ss3_array.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1_introduction.exercise.ShowName" />
+    <configuration name="SorsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_array.practice.SorsArray" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1_introduction.exercise.*" />
+          <option name="PATTERN" value="ss3_array.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChangeNumbers" />
-        <item itemvalue="Application.CurrencyConversion" />
-        <item itemvalue="Application.LeapYear" />
-        <item itemvalue="Application.ShowName" />
-        <item itemvalue="Application.BMI" />
+        <item itemvalue="Application.Prime100" />
+        <item itemvalue="Application.Prime" />
+        <item itemvalue="Application.SorsArray" />
+        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.Array2D" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +127,13 @@
       <updated>1656572030146</updated>
       <workItem from="1656572032154" duration="4432000" />
       <workItem from="1656636661051" duration="14231000" />
+      <workItem from="1656676074402" duration="375000" />
+      <workItem from="1656752836779" duration="2380000" />
+      <workItem from="1656756942922" duration="740000" />
+      <workItem from="1656771339701" duration="1204000" />
+      <workItem from="1656828965244" duration="2766000" />
+      <workItem from="1656855096227" duration="2383000" />
+      <workItem from="1656900079213" duration="1660000" />
     </task>
     <servers />
   </component>
@@ -142,5 +151,15 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
