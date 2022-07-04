@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7a53b8-e305-412b-a885-32f9cd162e1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss3_array/exercise/AddElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_array/exercise/Arr2DMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_array/exercise/ArrayConcatenation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3_array/exercise/Arr2DMin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss2_loop/exercise/ShowTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/DeleteElementArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/DeleteElementArr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss2_loop/exercise/ShowTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2_loop/exercise/PictureLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3_array/exercise/DeleteElementArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array/exercise/DeleteElementArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/Arr2DMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/Arr2DMax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3_array/exercise/Arr2DMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array/exercise/Arr2DMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +35,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Arr2DMax">
+  <component name="RunManager" selected="Application.Arr2DMin">
     <configuration name="AddElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.AddElement" />
       <module name="module2" />
@@ -66,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.ArrayConcatenation" />
+    <configuration name="Arr2DMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.Arr2DMin" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteElementArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.DeleteElementArr" />
+    <configuration name="ArrayConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.ArrayConcatenation" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Arr2DMin" />
         <item itemvalue="Application.Arr2DMax" />
         <item itemvalue="Application.ArrayConcatenation" />
         <item itemvalue="Application.AddElement" />
         <item itemvalue="Application.PictureLoop" />
-        <item itemvalue="Application.DeleteElementArr" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +127,8 @@
       <workItem from="1656771339701" duration="1204000" />
       <workItem from="1656828965244" duration="2766000" />
       <workItem from="1656855096227" duration="2383000" />
-      <workItem from="1656900079213" duration="18962000" />
+      <workItem from="1656900079213" duration="19298000" />
+      <workItem from="1656937135837" duration="492000" />
     </task>
     <servers />
   </component>
