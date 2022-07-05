@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7a53b8-e305-412b-a885-32f9cd162e1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss3_array/exercise/Arr2DMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3_array/exercise/CharacterCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3_array/exercise/DiagonalLineArr2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3_array/exercise/SumColArr2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3_array/practice/DemoNethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3_array/practice/MehtodMin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/Arr2DMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/Arr2DMax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3_array/exercise/Arr2DMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array/exercise/Arr2DMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/Arr2DMin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/Arr2DMin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3_array/exercise/Arr2DMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array/exercise/Arr2DMin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,33 +39,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Arr2DMin">
-    <configuration name="AddElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.AddElement" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss3_array.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Arr2DMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.Arr2DMax" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss3_array.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DiagonalLineArr2D">
     <configuration name="Arr2DMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.Arr2DMin" />
       <module name="module2" />
@@ -75,8 +53,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.ArrayConcatenation" />
+    <configuration name="CharacterCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.CharacterCount" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
@@ -88,12 +66,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PictureLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss2_loop.exercise.PictureLoop" />
+    <configuration name="DiagonalLineArr2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.DiagonalLineArr2D" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss2_loop.exercise.*" />
+          <option name="PATTERN" value="ss3_array.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MehtodMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_array.practice.MehtodMin" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss3_array.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumColArr2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.SumColArr2D" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss3_array.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiagonalLineArr2D" />
+        <item itemvalue="Application.CharacterCount" />
+        <item itemvalue="Application.SumColArr2D" />
         <item itemvalue="Application.Arr2DMin" />
-        <item itemvalue="Application.Arr2DMax" />
-        <item itemvalue="Application.ArrayConcatenation" />
-        <item itemvalue="Application.AddElement" />
-        <item itemvalue="Application.PictureLoop" />
+        <item itemvalue="Application.MehtodMin" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +132,8 @@
       <workItem from="1656828965244" duration="2766000" />
       <workItem from="1656855096227" duration="2383000" />
       <workItem from="1656900079213" duration="19298000" />
-      <workItem from="1656937135837" duration="492000" />
+      <workItem from="1656937135837" duration="6408000" />
+      <workItem from="1656981933443" duration="4561000" />
     </task>
     <servers />
   </component>

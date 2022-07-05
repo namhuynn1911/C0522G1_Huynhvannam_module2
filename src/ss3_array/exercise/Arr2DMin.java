@@ -23,7 +23,7 @@ public class Arr2DMin {
             for(int j=0;j<arr[i].length;j++) {
                 System.out.print(arr[i][j]+"\t");
                 if(arr[i][j]<min) {
-                    min=arr[i][j];
+                    min = arr[i][j];
                 }
             }
             System.out.println();
