@@ -18,17 +18,18 @@ public class Arr2DMax {
                 arr[i][j] = scanner.nextInt();
             }
         }
-        int max=arr[0][0];
-        for(int i=0;i<arr.length;i++) {
-            for (int j=0;j<arr[i].length;j++) {
-                System.out.print(arr[i][j]+"\t");
-                if(arr[i][j]>max) {
-                    max=arr[i][j];
+        int max = arr[0][0];
+        int i;
+        for (i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + "\t");
+                if (arr[i][j] > max) {
+                    max = arr[i][j];
                 }
             }
             System.out.println();
         }
-        System.out.printf("số lớn nhất trong mảng là %d",max);
+        System.out.printf("số lớn nhất trong mảng là %d", max);
 
     }
 }

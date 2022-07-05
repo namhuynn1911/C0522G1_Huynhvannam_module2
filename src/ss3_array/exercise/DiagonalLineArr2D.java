@@ -16,32 +16,33 @@ public class DiagonalLineArr2D {
                 arr[i][j] = sr.nextInt();
             }
         }
-        for(int i=0;i<arr.length;i++) {
+        int i;
+        for (i = 0; i < arr.length; i++) {
             System.out.print(Arrays.toString(arr[i]));
             System.out.println();
         }
-        int result1=sum(arr);
+       int result1 = sum(arr);
         System.out.println(result1);
-        int result2=sumNew(arr);
+        int result2 = sumNew(arr);
         System.out.println(result2);
-        System.out.println(result1+result2);
+        System.out.println(result1 + result2);
     }
+
     //hàm tính đường chéo thuận
     public static int sum(int[][] array) {
-        int sum =0;
-        for (int i = 0; i < array.length; i++) {
-                if (i == i) {
-                    sum += array[i][i];
+        int sum = 0;
 
-                }
-            }
+        for (int i = 0; i < array.length; i++) {
+                sum += array[i][i];
+        }
         return sum;
     }
+
     //hàm tính đường chéo ngược
     public static int sumNew(int[][] array) {
-        int newSum=0;
-        for(int i=0;i<array.length;i++) {
-            newSum += array[i][array.length-1-i];
+        int newSum = 0;
+        for (int i = 0; i < array.length; i++) {
+            newSum += array[i][array.length - 1 - i];
         }
         return newSum;
     }

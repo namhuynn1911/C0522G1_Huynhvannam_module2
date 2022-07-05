@@ -1,6 +1,5 @@
 package ss3_array.exercise;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class SumColArr2D {
@@ -12,26 +11,30 @@ public class SumColArr2D {
         System.out.println("nhập vào số cột");
         col = sr.nextInt();
         int[][] arr = new int[row][col];
-        for (int i = 0; i < row; i++) {
+        int i;
+        for (i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 System.out.printf("nhập vào phần tử arr[%d][%d]", i, j);
                 arr[i][j] = sr.nextInt();
             }
         }
         int sumCol;
+        boolean conditionCol;
         do {
             System.out.println("nhập vào số cột cần tính tổng");
             sumCol = sr.nextInt();
-            if (sumCol < 0 || sumCol > col) {
+            conditionCol=(sumCol < 0 || sumCol > col);
+            if (conditionCol) {
                 System.out.print("không có cột này yêu cầu nhập lại");
             }
-        } while (sumCol < 0 || sumCol > col);
+        } while (conditionCol);
         System.out.println(sum(arr, sumCol));
     }
 
-    public static int sum(int array[][], int number) {
+    public static int sum(int[][] array, int number) {
         int result = 0;
-        for (int i = 0; i < array.length; i++) {
+        int i;
+        for (i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 System.out.print(array[i][j] + "\t");
                 if (j == number) {
