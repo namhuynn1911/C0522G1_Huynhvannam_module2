@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7a53b8-e305-412b-a885-32f9cd162e1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss2_loop/practice/PrimeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/DemoQuadratic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/FanBT3/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/FanBT3/MainDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/QuadaticBT1/DemoBT1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/QuadaticBT1/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/StopWatch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/StopWatch/StopWatch1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4_oop/practice/DemoRectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/Arr2DMin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/Arr2DMin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/CharacterCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/CharacterCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/DiagonalLineArr2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/DiagonalLineArr2D.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/SumColArr2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss3_array/exercise/SumColArr2D.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3_array/exercise/Arr2DMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array/exercise/Arr2DMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3_array/exercise/Arr2DMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array/exercise/Arr2DMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3_array/exercise/CharacterCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array/exercise/CharacterCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3_array/exercise/DiagonalLineArr2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array/exercise/DiagonalLineArr2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3_array/exercise/SumColArr2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array/exercise/SumColArr2D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +29,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/ss3_array/exercise/SumColArr2D.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ss4_oop/exercise/FanBT3/Fan.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="2BHnlQN7zVQhtSal79cIXRUQKue" />
   <component name="ProjectViewState">
@@ -41,17 +40,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.PrimeDemo">
-    <configuration name="Arr2DMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.Arr2DMin" />
+  <component name="RunManager" selected="Application.GroupHomework">
+    <configuration name="DemoBT1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4_oop.exercise.QuadaticBT1.DemoBT1" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3_array.exercise.*" />
+          <option name="PATTERN" value="ss4_oop.exercise.QuadaticBT1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.CharacterCount" />
+    <configuration name="GroupHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4_oop.practice.GroupHomework" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3_array.exercise.*" />
+          <option name="PATTERN" value="ss4_oop.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiagonalLineArr2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.DiagonalLineArr2D" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4_oop.exercise.StopWatch.Main" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3_array.exercise.*" />
+          <option name="PATTERN" value="ss4_oop.exercise.StopWatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss2_loop.practice.PrimeDemo" />
+    <configuration name="MainDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4_oop.exercise.FanBT3.MainDemo" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss2_loop.practice.*" />
+          <option name="PATTERN" value="ss4_oop.exercise.FanBT3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumColArr2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_array.exercise.SumColArr2D" />
+    <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4_oop.exercise.Result" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3_array.exercise.*" />
+          <option name="PATTERN" value="ss4_oop.exercise.StopWatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimeDemo" />
-        <item itemvalue="Application.SumColArr2D" />
-        <item itemvalue="Application.DiagonalLineArr2D" />
-        <item itemvalue="Application.CharacterCount" />
-        <item itemvalue="Application.Arr2DMin" />
+        <item itemvalue="Application.GroupHomework" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainDemo" />
+        <item itemvalue="Application.DemoBT1" />
+        <item itemvalue="Application.Result" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +140,8 @@
       <workItem from="1656900079213" duration="19298000" />
       <workItem from="1656937135837" duration="6408000" />
       <workItem from="1656981933443" duration="12077000" />
+      <workItem from="1657026746843" duration="2986000" />
+      <workItem from="1657068789692" duration="17702000" />
     </task>
     <servers />
   </component>
