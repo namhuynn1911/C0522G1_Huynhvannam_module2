@@ -1,7 +1,9 @@
 package ss4_oop.exercise.QuadaticBT1;
 
 public class QuadraticEquation {
-    double a, b, c;
+    double a;
+    double b;
+    double c;
 
     public QuadraticEquation(double a, double b, double c) {
         this.a = a;

@@ -62,7 +62,7 @@ public class Fan {
         if (isOn()) {
             return "speed: " + getSpeed() + ", color: " + getColor() + ", radius: " + getRadius()+"quạt đang bật";
         }
-        return "speed: " + getSpeed() + ", color: " + getColor() + ", radius: " + getRadius()+"quạt dang tắt";
+        return  " color: " + getColor() + ", radius: " + getRadius()+"quạt dang tắt";
     }
 
 }

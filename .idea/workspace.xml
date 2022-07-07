@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7a53b8-e305-412b-a885-32f9cd162e1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/DemoQuadratic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/FanBT3/Fan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/FanBT3/MainDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/QuadaticBT1/DemoBT1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/QuadaticBT1/QuadraticEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/StopWatch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/StopWatch/StopWatch1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4_oop/practice/DemoRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4_oop/practice/DemoGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5_AccessModifier/exercise/Student2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5_AccessModifier/exercise/Student2/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5_AccessModifier/exercise1/Circle/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5_AccessModifier/exercise1/Circle/TestCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5_AccessModifier/practice/Car/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5_AccessModifier/practice/Car/TestCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5_AccessModifier/practice/StaticMethod/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5_AccessModifier/practice/StaticMethod/TestStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss4_oop/exercise/FanBT3/Fan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss4_oop/exercise/FanBT3/Fan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss4_oop/exercise/QuadaticBT1/QuadraticEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss4_oop/exercise/QuadaticBT1/QuadraticEquation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss4_oop/exercise/StopWatch/StopWatch1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss4_oop/exercise/StopWatch/StopWatch1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss4_oop/practice/DemoRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss4_oop/practice/DemoRectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss4_oop/practice/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss4_oop/practice/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4_oop/exercise/FanBT3/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/FanBT3/Fan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4_oop/exercise/QuadaticBT1/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/QuadaticBT1/QuadraticEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4_oop/exercise/StopWatch/StopWatch1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4_oop/exercise/StopWatch/StopWatch1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4_oop/practice/DemoRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4_oop/practice/DemoRectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +55,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.GroupHomework">
-    <configuration name="DemoBT1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4_oop.exercise.QuadaticBT1.DemoBT1" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss4_oop.exercise.QuadaticBT1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4_oop.practice.GroupHomework" />
+  <component name="RunManager" selected="Application.TestCircle">
+    <configuration name="DemoGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4_oop.practice.DemoGroup" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
@@ -72,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4_oop.exercise.StopWatch.Main" />
+    <configuration name="TestCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss5_AccessModifier.practice.Car.TestCar" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss4_oop.exercise.StopWatch.*" />
+          <option name="PATTERN" value="ss5_AccessModifier.practice.Car.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4_oop.exercise.FanBT3.MainDemo" />
+    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss5_AccessModifier.exercise1.Circle.TestCircle" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss4_oop.exercise.FanBT3.*" />
+          <option name="PATTERN" value="ss5_AccessModifier.exercise1.Circle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +95,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4_oop.exercise.Result" />
+    <configuration name="TestStudent (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss5_AccessModifier.exercise.Student2.TestStudent" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss4_oop.exercise.StopWatch.*" />
+          <option name="PATTERN" value="ss5_AccessModifier.exercise.Student2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss5_AccessModifier.practice.StaticMethod.TestStudent" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss5_AccessModifier.practice.StaticMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GroupHomework" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainDemo" />
-        <item itemvalue="Application.DemoBT1" />
-        <item itemvalue="Application.Result" />
+        <item itemvalue="Application.TestCircle" />
+        <item itemvalue="Application.DemoGroup" />
+        <item itemvalue="Application.TestStudent (1)" />
+        <item itemvalue="Application.TestStudent" />
+        <item itemvalue="Application.TestCar" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +151,9 @@
       <workItem from="1656937135837" duration="6408000" />
       <workItem from="1656981933443" duration="12077000" />
       <workItem from="1657026746843" duration="2986000" />
-      <workItem from="1657068789692" duration="17702000" />
+      <workItem from="1657068789692" duration="18499000" />
+      <workItem from="1657111727012" duration="1767000" />
+      <workItem from="1657155965130" duration="7739000" />
     </task>
     <servers />
   </component>
