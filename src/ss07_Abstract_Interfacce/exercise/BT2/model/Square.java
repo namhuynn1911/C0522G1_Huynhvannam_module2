@@ -2,7 +2,7 @@ package ss07_Abstract_Interfacce.exercise.BT2.model;
 
 
 
-public class Square extends Shape implements Colorable {
+public class Square extends Shape {
     private double side = 1.0;
 
     public Square() {

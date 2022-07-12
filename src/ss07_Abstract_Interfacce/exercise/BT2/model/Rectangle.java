@@ -1,6 +1,6 @@
 package ss07_Abstract_Interfacce.exercise.BT2.model;
 
-public class Rectangle extends Shape implements Colorable {
+public class Rectangle extends Shape {
     private double width = 1.0;
     private double length = 1.0;
 

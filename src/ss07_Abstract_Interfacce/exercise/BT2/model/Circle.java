@@ -1,6 +1,6 @@
 package ss07_Abstract_Interfacce.exercise.BT2.model;
 
-public class Circle extends Shape implements Colorable {
+public class Circle extends Shape {
     private double radius = 1.0;
 
     public Circle() {
