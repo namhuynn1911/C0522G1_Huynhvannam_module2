@@ -7,7 +7,7 @@ public class FuramaController {
         Scanner sr = new Scanner(System.in);
         int number;
         do {
-            System.out.println("Menu");
+            System.out.println("============Menu============");
             System.out.println("1.Employee Management");
             System.out.println("2.Customer Management");
             System.out.println("3.Facility Management ");
@@ -15,16 +15,13 @@ public class FuramaController {
             System.out.println("5.Promotion Management");
             System.out.println("6.Exit");
             System.out.println("nhập vào số menu");
-            number =sr.nextInt();
+            number =Integer.parseInt(sr.nextLine());
             if(number<0||number>6) {
 
                 System.out.println("yêu cầu nhập lại");
+                continue;
             }
-        } while (number<0||number>6);
-        displayMainMenu(number);
-    }
-    public static void displayMainMenu(int choice) {
-        switch (choice) {
+        switch (number) {
             case 1:
                 System.out.println("1\t Display list employees");
                 System.out.println("2\tAdd new employee");
@@ -57,7 +54,8 @@ public class FuramaController {
                 System.out.println("3.\tReturn main menu");
                 break;
             case 6:
-                System.exit(6);
+                System.exit(0);
         }
+        } while (true);
     }
 }
