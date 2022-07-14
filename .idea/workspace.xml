@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b7a53b8-e305-412b-a885-32f9cd162e1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CaseStudy_Module2/Tack2/mvc/model/Facility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CaseStudy_Module2/Tack2/mvc/model/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CaseStudy_Module2/Tack2/mvc/model/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CaseStudy_Module2/Tack2/mvc/model/Villa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/MyArrayList/controller/MyListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/MyArrayList/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/MyArrayList/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/MyArrayList/service/impl/ISudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/MyArrayList/service/impl/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/MyArrayList/view/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/arrayListBT1/mvc/controller/MyListText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/arrayListBT1/mvc/model/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/arrayListBT1/mvc/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/arrayListBT1/mvc/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/arrayListBT1/mvc/service/IMyListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/arrayListBT1/mvc/service/IMyListTestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/arrayListBT1/mvc/service/impl/MyListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/practice/ArrayList/controller/MyListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/practice/ArrayList/model/MyList.java" afterDir="false" />
+    <list default="true" id="7b7a53b8-e305-412b-a885-32f9cd162e1b" name="Changes" comment="&quot;add ss10&quot;">
+      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/model/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/ITeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/view/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/CaseStudy_Module2/Tack1/Controller/FuramaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/CaseStudy_Module2/Tack1/Controller/FuramaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss8_CleanCode_Refactori/exercise/Cotroller/MainCotronller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss8_CleanCode_Refactori/exercise/Cotroller/MainCotronller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss8_CleanCode_Refactori/exercise/TennicGame/TennicGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss8_CleanCode_Refactori/exercise/TennicGame/TennicGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CaseStudy_Module2/Tack1/Controller/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CaseStudy_Module2/Tack1/Controller/FuramaController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -71,26 +60,13 @@
       <recent name="ss07_Abstract_Interfacce.exercise.BT1.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.View">
+  <component name="RunManager" selected="Application.View (1)">
     <configuration name="MyListTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss9_DSA_DanhSach.exercise.BT1.controller.MyListTest" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ss9_DSA_DanhSach.exercise.BT1.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss9_DSA_DanhSach.practice.ArrayList.controller.MyListTest" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss9_DSA_DanhSach.practice.ArrayList.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,6 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="View (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.view.View" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss9_DSA_DanhSach.exercise.MyArrayList.view.View" />
       <module name="module2" />
@@ -139,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.View (1)" />
         <item itemvalue="Application.View" />
         <item itemvalue="Application.MyListText" />
         <item itemvalue="Application.MyListTextService" />
         <item itemvalue="Application.MyListTest (1)" />
-        <item itemvalue="Application.MyListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,8 +168,17 @@
       <workItem from="1657626434674" duration="36000" />
       <workItem from="1657633425178" duration="2163000" />
       <workItem from="1657678898173" duration="15622000" />
-      <workItem from="1657714365644" duration="3732000" />
+      <workItem from="1657714365644" duration="4598000" />
+      <workItem from="1657758707180" duration="14598000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;add ss10&quot;">
+      <created>1657718394076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657718394077</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +195,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;add ss10&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;add ss10&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
