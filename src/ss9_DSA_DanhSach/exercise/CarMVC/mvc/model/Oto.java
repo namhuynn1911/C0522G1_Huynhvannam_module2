@@ -1,13 +1,13 @@
 package ss9_DSA_DanhSach.exercise.CarMVC.mvc.model;
 
-public class Oto extends Xe{
+public class Oto extends Xe {
     private int soCho;
     private String kieuXe;
 
     public Oto() {
     }
 
-    public Oto(String tenChu, String tenCongTy, int namSanXuat, String bienXe, int soCho, String kieuXe) {
+    public Oto(String tenChu, String tenCongTy, int namSanXuat, int bienXe, int soCho, String kieuXe) {
         super(tenChu, tenCongTy, namSanXuat, bienXe);
         this.soCho = soCho;
         this.kieuXe = kieuXe;
@@ -23,7 +23,7 @@ public class Oto extends Xe{
 
     @Override
     public String toString() {
-        return super.toString()+ "Oto" +
+        return super.toString() + "Oto" +
                 "soCho=" + soCho +
                 ", kieuXe='" + kieuXe + '\'';
     }

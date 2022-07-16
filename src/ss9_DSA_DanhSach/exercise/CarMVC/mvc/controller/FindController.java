@@ -9,35 +9,34 @@ import ss9_DSA_DanhSach.exercise.CarMVC.mvc.service.impl.XeTaiService;
 
 import java.util.Scanner;
 
-public class AddController {
-
-
-    public static void themXe() {
+public class FindController {
+    public static void timKiem() {
         Scanner sc = new Scanner(System.in);
-        IOtoService iOtoService = new OtoService();
         IXeTaiService iXeTaiService = new XeTaiService();
+        IOtoService iOtoService = new OtoService();
         IXeMayService iXeMayService = new XeMayService();
+
         do {
-            System.out.println("Thêm xe vào danh sách \n" +
-                    "1.Thêm xe tải \n" +
-                    "2. Thêm xe oto \n" +
-                    "3. Thêm xe máy \n" +
+            System.out.println("Tìm kiếm xe \n" +
+                    "1. Tìm kiếm xe tải \n" +
+                    "2. Tìm kiếm oto \n" +
+                    "3. Tìm kiếm xe máy \n" +
                     "4. Quay lại chức năng chính");
             int bienSoSanh = Integer.parseInt(sc.nextLine());
+
             switch (bienSoSanh) {
                 case 1:
-                    iXeTaiService.addXeTai();
+                    iXeTaiService.timXeTai();
                     break;
                 case 2:
-                    iOtoService.addOto();
+                    iOtoService.timOto();
                     break;
                 case 3:
-                    iXeMayService.addXeMay();
+                    iXeMayService.timXeNay();
                     break;
                 case 4:
                     return;
             }
-
         } while (true);
     }
 }

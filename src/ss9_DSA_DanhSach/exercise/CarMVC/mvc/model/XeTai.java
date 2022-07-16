@@ -1,12 +1,12 @@
 package ss9_DSA_DanhSach.exercise.CarMVC.mvc.model;
 
-public class XeTai extends Xe{
+public class XeTai extends Xe {
     private double trongTai;
 
     public XeTai() {
     }
 
-    public XeTai(String tenChu, String tenCongTy, int namSanXuat, String bienXe, double trongTai) {
+    public XeTai(String tenChu, String tenCongTy, int namSanXuat, int bienXe, double trongTai) {
         super(tenChu, tenCongTy, namSanXuat, bienXe);
         this.trongTai = trongTai;
     }
@@ -21,7 +21,7 @@ public class XeTai extends Xe{
 
     @Override
     public String toString() {
-        return super.toString()+ " XeTa" +
+        return super.toString() + " XeTa" +
                 "trongTai=" + trongTai;
     }
 }

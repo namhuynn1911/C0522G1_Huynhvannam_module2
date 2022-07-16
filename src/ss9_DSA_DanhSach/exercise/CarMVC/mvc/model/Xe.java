@@ -4,12 +4,12 @@ public class Xe {
     private String tenChu;
     private String tenCongTy;
     private int namSanXuat;
-    private String bienXe;
+    private int bienXe;
 
     public Xe() {
     }
 
-    public Xe(String tenChu, String tenCongTy, int namSanXuat, String bienXe) {
+    public Xe(String tenChu, String tenCongTy, int namSanXuat, int bienXe) {
         this.tenChu = tenChu;
         this.tenCongTy = tenCongTy;
         this.namSanXuat = namSanXuat;
@@ -40,11 +40,11 @@ public class Xe {
         this.namSanXuat = namSanXuat;
     }
 
-    public String getBienXe() {
+    public int getBienXe() {
         return bienXe;
     }
 
-    public void setBienXe(String bienXe) {
+    public void setBienXe(int bienXe) {
         this.bienXe = bienXe;
     }
 

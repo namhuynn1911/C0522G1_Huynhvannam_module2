@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class MainController {
     public static void danhSanhXe() {
-        AddController themController = new AddController();
         Scanner sc = new Scanner(System.in);
         do {
             System.out.println("====CHƯƠNG TRÌNH QUẢN LÝ PHƯƠNG TIỆN GIAO THÔNG==== \n" +
@@ -17,11 +16,17 @@ public class MainController {
             int bienSoSanh = Integer.parseInt(sc.nextLine());
             switch (bienSoSanh) {
                 case 1:
-                    themController.themXe();
+                    AddController.themXe();
                     break;
                 case 2:
+                    DisPlayController.hienThi();
+                    break;
                 case 3:
+                    RemoveController.xoaXe();
+                    break;
                 case 4:
+                    FindController.timKiem();
+                    break;
                 case 5:
                     System.exit(0);
             }
