@@ -3,9 +3,10 @@ package ss9_DSA_DanhSach.exercise.CarMVC.mvc.controller;
 import java.util.Scanner;
 
 public class MainController {
-    public void danhSanhXe() {
-        Scanner sc=new Scanner(System.in);
-        do{
+    public static void danhSanhXe() {
+        AddController themController = new AddController();
+        Scanner sc = new Scanner(System.in);
+        do {
             System.out.println("====CHƯƠNG TRÌNH QUẢN LÝ PHƯƠNG TIỆN GIAO THÔNG==== \n" +
                     "Chọn chức năng \n" +
                     "1. Thêm mới phương tiện \n" +
@@ -13,10 +14,11 @@ public class MainController {
                     "3. Xóa phương tiện \n" +
                     "4. Tiềm kiếm theo biển kiểm soát \n" +
                     "5. Thoát");
-            int bienSoSanh= Integer.parseInt(sc.nextLine());
+            int bienSoSanh = Integer.parseInt(sc.nextLine());
             switch (bienSoSanh) {
                 case 1:
-
+                    themController.themXe();
+                    break;
                 case 2:
                 case 3:
                 case 4:
@@ -24,7 +26,7 @@ public class MainController {
                     System.exit(0);
             }
 
-        }while (true);
+        } while (true);
     }
 
 }
