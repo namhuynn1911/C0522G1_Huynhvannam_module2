@@ -9,7 +9,10 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         System.out.println("nhập vào chuỗi ngẫu nhiên");
         String str=sc.nextLine();
-       boolean result= Bracket.checkBracket(str);
-        System.out.println(result);
+        if (Bracket.checkBracket(str)) {
+            System.out.println("tốt");
+        }else {
+            System.out.println("xấu");
+        }
     }
 }

@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7a53b8-e305-412b-a885-32f9cd162e1b" name="Changes" comment="&quot;add ss10&quot;">
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/check_brackets/controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/check_brackets/model/Bracket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/digitalConversion/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/digitalConversion/model/Conversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/palindrome/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/reverseArray/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/reverseArray/model/ReverseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/AddController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/DisPlayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IXeMayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IXeTaiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/OtoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/XeMayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/XeTaiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/view/view.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/ThemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IOtoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IOtoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/check_brackets/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/check_brackets/controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/check_brackets/model/Bracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/check_brackets/model/Bracket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +175,7 @@
       <workItem from="1657714365644" duration="4598000" />
       <workItem from="1657758707180" duration="18924000" />
       <workItem from="1657844786225" duration="19134000" />
-      <workItem from="1657931897859" duration="1124000" />
+      <workItem from="1657931897859" duration="2322000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;add ss10&quot;">
       <created>1657718394076</created>
@@ -200,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657718394077</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;add ss10&quot;">
+      <created>1657933223682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657933223682</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

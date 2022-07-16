@@ -4,20 +4,21 @@ import java.util.Stack;
 
 public class Bracket {
     public static boolean checkBracket(String str) {
-        Stack<Character> characterStack=new Stack<>();
-        Stack<Character> newStack=new Stack<>();
+        Stack<Character> characterStack = new Stack<>();
 
-        for(int i=0;i<str.length();i++) {
+
+        for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == '(') {
                 characterStack.push(str.charAt(i));
-            } else if(str.charAt(i)==')') {
-                if(characterStack.isEmpty()) {
+            } else if (str.charAt(i) == ')') {
+                if (characterStack.isEmpty()) {
                     return false;
-                }else {
-                    newStack.push(str.charAt(i));
                 }
+                characterStack.pop();
             }
         }
-        return characterStack.size()==newStack.size();
+        return characterStack.isEmpty();
     }
+
 }
+
