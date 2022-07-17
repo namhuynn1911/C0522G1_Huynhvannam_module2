@@ -87,13 +87,13 @@
       <recent name="ss07_Abstract_Interfacce.exercise.BT1.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.view">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.check_brackets.controller.Main" />
+  <component name="RunManager" selected="Application.Conversion">
+    <configuration name="Bracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.check_brackets.model.Bracket" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.check_brackets.controller.*" />
+          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.check_brackets.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.reverseArray.controller.MainController" />
+    <configuration name="Conversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.digitalConversion.model.Conversion" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.reverseArray.controller.*" />
+          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.digitalConversion.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.check_brackets.controller.Main" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.check_brackets.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,19 +153,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="View (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.view.View" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="view" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss9_DSA_DanhSach.exercise.CarMVC.mvc.view.view" />
       <module name="module2" />
@@ -168,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Conversion" />
+        <item itemvalue="Application.Bracket" />
         <item itemvalue="Application.view" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.MainController" />
-        <item itemvalue="Application.View (1)" />
       </list>
     </recent_temporary>
   </component>

@@ -4,6 +4,10 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class Conversion {
+    public static void main(String[] args) {
+        Conversion.decimalToBinary();
+    }
+
     private static Scanner sc=new Scanner(System.in);
 
     public static void decimalToBinary() {

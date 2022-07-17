@@ -5,6 +5,11 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class ReverseArray {
+
+    public static void main(String[] args) {
+        ReverseArray.isString();
+    }
+
     private static Scanner sc = new Scanner(System.in);
 
 
