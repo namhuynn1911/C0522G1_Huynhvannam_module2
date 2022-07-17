@@ -1,4 +1,4 @@
-package ss11_dsaStackQueue.exercise.check_brackets.model;
+package ss11_dsaStackQueue.exercise.check_brackets.service;
 
 import java.util.Scanner;
 import java.util.Stack;

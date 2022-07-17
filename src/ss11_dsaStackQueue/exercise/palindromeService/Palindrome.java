@@ -1,4 +1,4 @@
-package ss11_dsaStackQueue.exercise.palindrome;
+package ss11_dsaStackQueue.exercise.palindromeService;
 
 import java.util.*;
 

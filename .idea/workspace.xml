@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7a53b8-e305-412b-a885-32f9cd162e1b" name="Changes" comment="&quot;add ss10&quot;">
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/FindController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/RemoveController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss11_dsaStackQueue/exercise/check_brackets/model/Bracket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss11_dsaStackQueue/exercise/check_brackets/model/Bracket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/AddController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/DisPlayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/DisPlayController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/Oto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/Oto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/Xe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/Xe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/XeMay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/XeMay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/XeTai.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/XeTai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IOtoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IOtoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IXeMayService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IXeMayService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IXeTaiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IXeTaiService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/OtoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/OtoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/XeMayService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/XeMayService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/XeTaiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/XeTaiService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/check_brackets/model/Bracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/check_brackets/model/Bracket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/AddController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/DisPlayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/DisPlayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/Oto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/Oto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/Xe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/Xe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/XeMay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/XeMay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/XeTai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/model/XeTai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IOtoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IOtoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IXeMayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IXeMayService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IXeTaiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/IXeTaiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/OtoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/OtoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/XeMayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/XeMayService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/XeTaiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/service/impl/XeTaiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/check_brackets/model/Bracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/check_brackets/service/Bracket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/digitalConversion/model/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/digitalConversion/service/Conversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/palindrome/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/palindromeService/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/reverseArray/model/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/reverseArray/service/ReverseArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,11 +62,11 @@
   </component>
   <component name="RunManager" selected="Application.Conversion">
     <configuration name="Bracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.check_brackets.model.Bracket" />
+      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.check_brackets.service.Bracket" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.check_brackets.model.*" />
+          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.check_brackets.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +75,11 @@
       </method>
     </configuration>
     <configuration name="Conversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.digitalConversion.model.Conversion" />
+      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.digitalConversion.service.Conversion" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.digitalConversion.model.*" />
+          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.digitalConversion.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +114,11 @@
       </method>
     </configuration>
     <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.palindrome.Palindrome" />
+      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.palindromeService.Palindrome" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.palindrome.*" />
+          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.palindromeService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,6 +185,7 @@
       <workItem from="1657758707180" duration="18924000" />
       <workItem from="1657844786225" duration="19134000" />
       <workItem from="1657931897859" duration="8775000" />
+      <workItem from="1658045586935" duration="590000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;add ss10&quot;">
       <created>1657718394076</created>

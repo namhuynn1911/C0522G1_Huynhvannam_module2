@@ -1,4 +1,4 @@
-package ss11_dsaStackQueue.exercise.digitalConversion.model;
+package ss11_dsaStackQueue.exercise.digitalConversion.service;
 
 import java.util.Scanner;
 import java.util.Stack;

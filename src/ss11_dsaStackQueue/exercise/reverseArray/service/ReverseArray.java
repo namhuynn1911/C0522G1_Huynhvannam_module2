@@ -1,4 +1,4 @@
-package ss11_dsaStackQueue.exercise.reverseArray.model;
+package ss11_dsaStackQueue.exercise.reverseArray.service;
 
 
 import java.util.Scanner;
