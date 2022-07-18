@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7a53b8-e305-412b-a885-32f9cd162e1b" name="Changes" comment="&quot;add ss10&quot;">
-      <change beforePath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/check_brackets/model/Bracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/check_brackets/service/Bracket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/digitalConversion/model/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/digitalConversion/service/Conversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/palindrome/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/palindromeService/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/reverseArray/model/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/reverseArray/service/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/treeMap_count/TreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_javaCollectionFramework/exercise/practice_arayList/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_javaCollectionFramework/exercise/practice_arayList/controller/SortController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_javaCollectionFramework/exercise/practice_arayList/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_javaCollectionFramework/exercise/practice_arayList/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_javaCollectionFramework/exercise/practice_arayList/service/impl/AscendingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_javaCollectionFramework/exercise/practice_arayList/service/impl/DecreaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_javaCollectionFramework/exercise/practice_arayList/service/impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_javaCollectionFramework/exercise/practice_arayList/view/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_javaCollectionFramework/practice/hashMapAndhashSet/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_javaCollectionFramework/practice/hashMapAndhashSet/service/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_javaCollectionFramework/practice/hashMap_linkedHashMap_treeMap/TestMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss11_dsaStackQueue/exercise/check_brackets/model/Bracket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss11_dsaStackQueue/exercise/digitalConversion/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss11_dsaStackQueue/exercise/digitalConversion/model/Conversion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss11_dsaStackQueue/exercise/palindrome/Palindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss11_dsaStackQueue/exercise/reverseArray/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss11_dsaStackQueue/exercise/reverseArray/model/ReverseArray.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,20 +75,7 @@
       <recent name="ss07_Abstract_Interfacce.exercise.BT1.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Conversion">
-    <configuration name="Bracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.check_brackets.service.Bracket" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.check_brackets.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TreeMap">
     <configuration name="Conversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.digitalConversion.service.Conversion" />
       <module name="module2" />
@@ -87,12 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss12_javaCollectionFramework.practice.hashMapAndhashSet.service.Main" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss12_javaCollectionFramework.practice.hashMapAndhashSet.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.check_brackets.controller.Main" />
+      <option name="MAIN_CLASS_NAME" value="ss12_javaCollectionFramework.exercise.practice_arayList.view.Main" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.check_brackets.controller.*" />
+          <option name="PATTERN" value="ss12_javaCollectionFramework.exercise.practice_arayList.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.digitalConversion.controller.MainController" />
+    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss12_javaCollectionFramework.practice.hashMap_linkedHashMap_treeMap.TestMap" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.digitalConversion.controller.*" />
+          <option name="PATTERN" value="ss12_javaCollectionFramework.practice.hashMap_linkedHashMap_treeMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,25 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.palindromeService.Palindrome" />
+    <configuration name="TreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsaStackQueue.exercise.treeMap_count.TreeMap" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.palindromeService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="view" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss9_DSA_DanhSach.exercise.CarMVC.mvc.view.view" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss9_DSA_DanhSach.exercise.CarMVC.mvc.view.*" />
+          <option name="PATTERN" value="ss11_dsaStackQueue.exercise.treeMap_count.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Conversion" />
-        <item itemvalue="Application.Bracket" />
-        <item itemvalue="Application.view" />
+        <item itemvalue="Application.TreeMap" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.TestMap" />
+        <item itemvalue="Application.Conversion" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +187,8 @@
       <workItem from="1657758707180" duration="18924000" />
       <workItem from="1657844786225" duration="19134000" />
       <workItem from="1657931897859" duration="8775000" />
-      <workItem from="1658045586935" duration="590000" />
+      <workItem from="1658045586935" duration="2822000" />
+      <workItem from="1658106250532" duration="14367000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;add ss10&quot;">
       <created>1657718394076</created>
