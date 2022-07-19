@@ -20,7 +20,7 @@ public class TreeMap {
                 map.put(key, count + 1);
             }
         }
-        System.out.println(map);
+       //System.out.println(map);
 
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.printf("%s-%d \n", entry.getKey(), entry.getValue());

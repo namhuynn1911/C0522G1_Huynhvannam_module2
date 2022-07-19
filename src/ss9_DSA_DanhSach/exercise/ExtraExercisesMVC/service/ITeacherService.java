@@ -6,4 +6,6 @@ public interface ITeacherService {
     void remoTeacher();
 
     void displayAllTeacher();
+
+    void findTeacher();
 }

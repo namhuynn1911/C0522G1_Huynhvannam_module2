@@ -56,11 +56,52 @@ public class StudentService implements IStudentService {
         }
     }
 
+    @Override
+    public void findStudent() {
+        int choose;
+        boolean isFlag = false;
+        do {
+            System.out.println("nhập vào số cần tìm kiếm \n" +
+                    "1.Theo id \n" +
+                    "2. Theo tên");
+            choose = Integer.parseInt(sc.nextLine());
+            if (choose != 1 && choose != 2) {
+                System.out.println("yêu cầu nhập lại:");
+            }
+
+        } while (choose != 1 && choose != 2);
+
+        if (choose == 1) {
+            System.out.println("nhập vào id cần tìm kiếm:");
+            int idFind = Integer.parseInt(sc.nextLine());
+            for (Student student : studentList) {
+                if (student.getId() == idFind) {
+                    System.out.println(student);
+                    isFlag = true;
+                    break;
+                }
+            }
+        } else {
+            System.out.println("nhập vào tên cần tìm kiếm: ");
+            String nameFind = sc.nextLine();
+            for (Student student : studentList) {
+                if (student.getName().contains(nameFind)) {
+                    System.out.println(student);
+                    isFlag = true;
+                }
+            }
+        }
+        if (!isFlag) {
+            System.out.println("không tìm thấy");
+        }
+
+    }
+
 
     /**
      * phương thức cho người dùng nhập thông tin học sinh vào
      *
-     * @return
+
      */
     public static Student infoStudent() {
         System.out.print("Nhập id: ");

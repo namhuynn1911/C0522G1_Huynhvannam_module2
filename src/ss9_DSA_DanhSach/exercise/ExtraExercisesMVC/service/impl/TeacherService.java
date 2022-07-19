@@ -6,11 +6,12 @@ import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.ITeacherService;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class TeacherService implements ITeacherService {
-    private static List<Teacher> teacherList = new ArrayList<>();
-    private static Scanner sc = new Scanner(System.in);
+    private static final List<Teacher> teacherList = new ArrayList<>();
+    private static final Scanner sc = new Scanner(System.in);
 
     /**
      * phương thức để thêm thành viên cho mảng dánh sách
@@ -61,10 +62,49 @@ public class TeacherService implements ITeacherService {
         }
     }
 
+    @Override
+    public void findTeacher() {
+        int choose;
+        boolean isFlag = false;
+        do {
+            System.out.println("nhập vào số cần tìm kiếm \n" +
+                    "1.Theo id \n" +
+                    "2. Theo tên");
+            choose = Integer.parseInt(sc.nextLine());
+            if (choose != 1 && choose != 2) {
+                System.out.println("yêu cầu nhập lại:");
+            }
+
+        } while (choose != 1 && choose != 2);
+
+        if (choose == 1) {
+            System.out.println("nhập vào id cần tìm kiếm:");
+            int idFind = Integer.parseInt(sc.nextLine());
+            for (Teacher teacher : teacherList) {
+                if (teacher.getId() == idFind) {
+                    System.out.println(teacher);
+                    isFlag = true;
+                    break;
+                }
+            }
+        } else {
+            System.out.println("nhập vào tên cần tìm kiếm: ");
+            String nameFind = sc.nextLine();
+            for (Teacher teacher : teacherList) {
+                if (teacher.getName().toLowerCase().contains(nameFind)) {
+                    System.out.println(teacher);
+                    isFlag = true;
+                }
+            }
+        }
+        if (!isFlag) {
+            System.out.println("không tìm thấy");
+        }
+    }
+
     /**
      * phương thức để cho người dùng nhập thông tin
      *
-     * @return
      */
     public static Teacher infoTeacher() {
         System.out.print("Nhập id: ");
