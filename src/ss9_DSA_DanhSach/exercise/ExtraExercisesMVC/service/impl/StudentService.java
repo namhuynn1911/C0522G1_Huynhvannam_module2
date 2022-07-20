@@ -4,12 +4,20 @@ import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.model.Student;
 import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.IStudentService;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
 public class StudentService implements IStudentService {
     private static List<Student> studentList = new ArrayList<>();
     private static Scanner sc = new Scanner(System.in);
+
+    static {
+        studentList.add(new Student(1, "huỳnh văn nam", "19/11/1993", "nam", "c05", 9));
+        studentList.add(new Student(2, "đặng ngọc huy", "19/11/1998", "nam", "c05", 8));
+        studentList.add(new Student(3, "phan xuân phúc", "19/11/1964", "nam", "c05", 1));
+        studentList.add(new Student(4, "nguyễn tấn dũng", "19/11/1966", "nam", "c05", 2));
+    }
 
     @Override
     public void addStudent() {
@@ -97,11 +105,24 @@ public class StudentService implements IStudentService {
 
     }
 
+    @Override
+    public void bubbleSort() {
+        boolean nextTip = true;
+        for (int i = 0; i < studentList.size() - 1 && nextTip; i++) {
+            nextTip = false;
+            for (int j = 0; j < studentList.size() - 1 - i; j++) {
+                if (studentList.get(j).getName().compareTo(studentList.get(j + 1).getName()) > 0) {
+                    Collections.swap(studentList, j, j + 1);
+                    nextTip = true;
+                }
+            }
+        }
+
+    }
+
 
     /**
      * phương thức cho người dùng nhập thông tin học sinh vào
-     *
-
      */
     public static Student infoStudent() {
         System.out.print("Nhập id: ");

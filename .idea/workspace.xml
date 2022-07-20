@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7a53b8-e305-412b-a885-32f9cd162e1b" name="Changes" comment="&quot;add ss10&quot;">
-      <change afterPath="$PROJECT_DIR$/src/ss13_search_algorithm/exercise/binary/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_search_algorithm/exercise/consecutiveSeries/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_search_algorithm/exercise/longestChain/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_search_algorithm/practice/binary_searchTH1/Binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss13_search_algorithm/practice/demo/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14_sort/exercise/ascending_insertion_sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14_sort/exercise/insertion_illustration/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14_sort/practice/bubbleSort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14_sort/practice/insertionSort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14_sort/practice/selectionSort/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss11_dsaStackQueue/exercise/treeMap_count/TreeMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss11_dsaStackQueue/exercise/treeMap_count/TreeMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss12_javaCollectionFramework/exercise/practice_arayList/service/impl/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss12_javaCollectionFramework/exercise/practice_arayList/service/impl/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/TeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/TeacherController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/IStudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/IStudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/ITeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/ITeacherService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/TeacherService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/treeMap_count/TreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_dsaStackQueue/exercise/treeMap_count/TreeMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/TeacherController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/IStudentService.java" afterDir="false" />
@@ -76,13 +69,13 @@
       <recent name="ss07_Abstract_Interfacce.exercise.BT1.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.View">
-    <configuration name="Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13_search_algorithm.practice.binary_searchTH1.Binary" />
+  <component name="RunManager" selected="Application.InsertionSort (2)">
+    <configuration name="InsertionSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14_sort.exercise.ascending_insertion_sort.InsertionSort" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss13_search_algorithm.practice.binary_searchTH1.*" />
+          <option name="PATTERN" value="ss14_sort.exercise.ascending_insertion_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13_search_algorithm.exercise.longestChain.Main" />
+    <configuration name="InsertionSort (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14_sort.exercise.insertion_illustration.InsertionSort" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss13_search_algorithm.exercise.longestChain.*" />
+          <option name="PATTERN" value="ss14_sort.exercise.insertion_illustration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13_search_algorithm.exercise.consecutiveSeries.Main" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14_sort.practice.insertionSort.InsertionSort" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss13_search_algorithm.exercise.consecutiveSeries.*" />
+          <option name="PATTERN" value="ss14_sort.practice.insertionSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13_search_algorithm.exercise.binary.Search" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14_sort.practice.selectionSort.SelectionSort" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss13_search_algorithm.exercise.binary.*" />
+          <option name="PATTERN" value="ss14_sort.practice.selectionSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSort (2)" />
         <item itemvalue="Application.View" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Search" />
-        <item itemvalue="Application.Binary" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.InsertionSort (1)" />
+        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +183,8 @@
       <workItem from="1657931897859" duration="8775000" />
       <workItem from="1658045586935" duration="2822000" />
       <workItem from="1658106250532" duration="17165000" />
-      <workItem from="1658192507609" duration="16600000" />
+      <workItem from="1658192507609" duration="17471000" />
+      <workItem from="1658280333709" duration="16271000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;add ss10&quot;">
       <created>1657718394076</created>

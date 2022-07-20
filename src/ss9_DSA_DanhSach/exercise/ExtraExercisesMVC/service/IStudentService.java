@@ -8,4 +8,6 @@ public interface IStudentService {
     void displayAllStudent();
 
     void findStudent();
+
+    void bubbleSort();
 }
