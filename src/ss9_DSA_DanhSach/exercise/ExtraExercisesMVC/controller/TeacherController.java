@@ -17,7 +17,7 @@ public class TeacherController {
                     "3. Hiển thị danh sách giảng viên \n" +
                     "4. Tìm giảng viên theo id \n" +
                     "5. Sắp xếp theo họ và tên \n" +
-                    "6. quay lại chức năng chính");
+                    "6. Quay lại chức năng chính");
             int choose = Integer.parseInt(sc.nextLine());
             switch (choose) {
                 case 1:

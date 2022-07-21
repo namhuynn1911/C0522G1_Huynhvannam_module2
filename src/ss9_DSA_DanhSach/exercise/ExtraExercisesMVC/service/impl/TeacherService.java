@@ -2,6 +2,7 @@ package ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.impl;
 
 import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.model.Student;
 import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.model.Teacher;
+import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.DuplicateIDException;
 import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.ITeacherService;
 
 import java.util.*;
@@ -124,8 +125,24 @@ public class TeacherService implements ITeacherService {
      * phương thức để cho người dùng nhập thông tin
      */
     public static Teacher infoTeacher() {
-        System.out.print("Nhập id: ");
-        int id = Integer.parseInt(sc.nextLine());
+        int id=0;
+        while (true) {
+            try {
+
+                System.out.print("Nhập id: ");
+                id = Integer.parseInt(sc.nextLine());
+                for (Teacher teacher:teacherList) {
+                    if(teacher.getId()==id) {
+                        throw new DuplicateIDException("id đã trùng,yêu cầu nhập lại");
+                    }
+                }
+                break;
+            }catch (NumberFormatException e) {
+                System.out.println("bạn phải nhập số nguyên,yêu cầu nhập lại");
+            }catch (DuplicateIDException e) {
+                System.out.println(e.getMessage());
+            }
+        }
         System.out.print("Nhập name: ");
         String name = sc.nextLine();
         System.out.print("Nhập ngày sinh: ");

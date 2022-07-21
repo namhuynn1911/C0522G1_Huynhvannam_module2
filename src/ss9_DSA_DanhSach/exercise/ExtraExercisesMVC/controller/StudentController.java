@@ -18,8 +18,8 @@ public class StudentController {
                     "2. Xóa học sinh \n" +
                     "3. Hiển thị danh sách học sinh \n" +
                     "4. Tìm kiếm theo id hoặc theo tên \n" +
-                    "5. Sắp xếp theo tên \n " +
-                    "6. quay lại chức năng chính");
+                    "5. Sắp xếp theo tên \n" +
+                    "6. Quay lại chức năng chính");
             int choose = Integer.parseInt(sc.nextLine());
             switch (choose) {
                 case 1:

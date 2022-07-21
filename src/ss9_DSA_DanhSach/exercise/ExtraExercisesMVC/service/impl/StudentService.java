@@ -1,6 +1,7 @@
 package ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.impl;
 
 import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.model.Student;
+import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.DuplicateIDException;
 import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.IStudentService;
 
 import java.util.ArrayList;
@@ -20,7 +21,7 @@ public class StudentService implements IStudentService {
     }
 
     @Override
-    public void addStudent() {
+    public void addStudent(){
         Student student = infoStudent();
         studentList.add(student);
         System.out.println("thêm mới thành công");
@@ -121,12 +122,31 @@ public class StudentService implements IStudentService {
     }
 
 
+
     /**
      * phương thức cho người dùng nhập thông tin học sinh vào
      */
     public static Student infoStudent() {
-        System.out.print("Nhập id: ");
-        int id = Integer.parseInt(sc.nextLine());
+        int id=0;
+        double point=0;
+        while (true) {
+            try {
+
+                System.out.print("Nhập id: ");
+                id = Integer.parseInt(sc.nextLine());
+                for (Student student:studentList ) {
+                    if (student.getId() == id) {
+                        throw new DuplicateIDException("id đã trùng,yêu cầu nhập lại");
+                    }
+                }
+                break;
+            }catch (NumberFormatException e) {
+                System.out.println("bạn phải nhập số nguyên,yêu cầu nhập lại");
+            }catch (DuplicateIDException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+
         System.out.print("Nhập name: ");
         String name = sc.nextLine();
         System.out.print("Nhập ngày sinh: ");
@@ -135,8 +155,16 @@ public class StudentService implements IStudentService {
         String gender = sc.nextLine();
         System.out.println("nhập tên lớp: ");
         String classes = sc.nextLine();
-        System.out.print("nhập điểm: ");
-        double point = Double.parseDouble(sc.nextLine());
+        while (true) {
+            try {
+                System.out.print("nhập điểm: ");
+                point = Double.parseDouble(sc.nextLine());
+                break;
+            }catch (NumberFormatException e) {
+                System.out.println("bạn phải nhập số thực,yêu cầu nhập lại");
+            }
+        }
+
         Student student = new Student(id, name, dateOfBirth, gender, classes, point);
         return student;
     }
