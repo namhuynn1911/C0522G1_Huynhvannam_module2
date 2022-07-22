@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class CountryService implements ICountryService {
-    private static final String PATH = "src/ss16_io_text_file/exercise/country/model/Country.java";
+    private static final String PATH = "src/ss16_io_text_file/exercise/country/file/country.csv";
 
 
     @Override

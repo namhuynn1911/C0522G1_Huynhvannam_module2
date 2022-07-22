@@ -37,18 +37,20 @@ public class Country {
     public void setName(String name) {
         this.name = name;
     }
+
     public String getInfo() {
-        return String.format("Country: %s,%s,%s" ,this.getId(),this.getCode(),this.getName());
+        return String.format("Country: %s,%s,%s", this.getId(), this.getCode(), this.getName());
     }
 
     @Override
-    public  String toString() {
+    public String toString() {
         return "Country{" +
                 "id=" + id +
                 ", code='" + code + '\'' +
                 ", name='" + name + '\'' +
                 '}';
     }
-
-
 }
+
+
+

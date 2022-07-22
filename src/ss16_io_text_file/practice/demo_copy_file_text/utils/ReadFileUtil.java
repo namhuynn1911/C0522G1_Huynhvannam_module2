@@ -13,7 +13,7 @@ public class ReadFileUtil {
     private static List<String> readFile(String path) throws IOException {
         File file=new File(path);
         FileReader fileReader=new FileReader(file);
-        BufferedReader bufferedReader=new BufferedReader(new FileReader(file));
+        BufferedReader bufferedReader=new BufferedReader(fileReader);
         String line;
         List<String> stringList=new ArrayList<>();
         //bufferedReader.readLine();loại bỏ dòng tiêu đề

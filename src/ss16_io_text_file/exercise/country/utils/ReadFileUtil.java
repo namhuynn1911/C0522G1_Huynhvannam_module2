@@ -31,7 +31,6 @@ public static List<Country> readCountryFile(String path) throws IOException {
             info= line.split(",");
             list.add(new Country(Integer.parseInt(info[0]),info[1],info[2]));
         }
-    System.out.println(list);
         return list;
 }
 }
