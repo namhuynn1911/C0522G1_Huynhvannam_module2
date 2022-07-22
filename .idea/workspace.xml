@@ -2,16 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7a53b8-e305-412b-a885-32f9cd162e1b" name="Changes" comment="&quot;add ss10&quot;">
-      <change afterPath="$PROJECT_DIR$/src/ss15_exception_debug/exercise/triangleException/TriangleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss15_exception_debug/exercise/triangleException/mbcBT1/controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss15_exception_debug/exercise/triangleException/mbcBT1/model/IllegalTriangleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss15_exception_debug/exercise/triangleException/mbcBT1/model/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/DuplicateIDException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/exercise/copy_file_text/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/exercise/copy_file_text/file_data/input.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/exercise/copy_file_text/file_data/output.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/exercise/country/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/exercise/country/file/country.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/exercise/country/model/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/exercise/country/service/ICountryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/exercise/country/service/impl/CountryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/exercise/country/utils/ReadFileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/exercise/country/view/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/file/student.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/service/impl/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/utils/ReadFileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/utils/WriteFileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/module2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/TeacherService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/TeacherService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +63,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
+    <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../phan_mem_code/source_code/apj-calculator" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -66,13 +80,13 @@
       <recent name="ss07_Abstract_Interfacce.exercise.BT1.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.View">
-    <configuration name="InsertionSort (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss14_sort.exercise.insertion_illustration.InsertionSort" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16_io_text_file.exercise.copy_file_text.Main" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss14_sort.exercise.insertion_illustration.*" />
+          <option name="PATTERN" value="ss16_io_text_file.exercise.copy_file_text.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss14_sort.practice.insertionSort.InsertionSort" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16_io_text_file.exercise.country.view.Main" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss14_sort.practice.insertionSort.*" />
+          <option name="PATTERN" value="ss16_io_text_file.exercise.country.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +108,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss15_exception_debug.exercise.triangleException.mbcBT1.controller.Main" />
+      <option name="MAIN_CLASS_NAME" value="ss16_io_text_file.practice.demo_copy_file_text.view.Main" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss15_exception_debug.exercise.triangleException.mbcBT1.controller.*" />
+          <option name="PATTERN" value="ss16_io_text_file.practice.demo_copy_file_text.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss15_exception_debug.exercise.triangleException.TriangleException" />
+    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16_io_text_file.exercise.country.controller.MainController" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss15_exception_debug.exercise.triangleException.mbcBT1.model.*" />
+          <option name="PATTERN" value="ss16_io_text_file.exercise.country.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16_io_text_file.practice.demo_copy_file_text.view.Main" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss16_io_text_file.practice.demo_copy_file_text.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.View" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TriangleException" />
-        <item itemvalue="Application.InsertionSort (2)" />
-        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.MainController" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +209,10 @@
       <workItem from="1658106250532" duration="17165000" />
       <workItem from="1658192507609" duration="17471000" />
       <workItem from="1658280333709" duration="16271000" />
-      <workItem from="1658375956910" duration="11145000" />
+      <workItem from="1658375956910" duration="11584000" />
+      <workItem from="1658460930435" duration="19319000" />
+      <workItem from="1658488944867" duration="2284000" />
+      <workItem from="1658491264917" duration="190000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;add ss10&quot;">
       <created>1657718394076</created>

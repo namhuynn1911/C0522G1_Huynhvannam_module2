@@ -1,0 +1,6 @@
+1,huỳnh văn nam,8.0 
+2,nam,9.0 
+3,nguyễn van phúc,8.0 
+4,van,9.0 
+5,trí,9.0 
+6,hùng,10.0 
