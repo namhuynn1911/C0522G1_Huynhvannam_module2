@@ -66,7 +66,7 @@ public class TeacherService implements ITeacherService {
      * phương thức xóa giảng viên
      */
     @Override
-    public void remoTeacher() {
+    public void remoTeacher() throws IOException {
         System.out.println("nhập vào id học sinh cần xóa: ");
         int idRemove = Integer.parseInt(sc.nextLine());
         boolean isFlag = false;
@@ -78,6 +78,7 @@ public class TeacherService implements ITeacherService {
                 int chooseYesNo = Integer.parseInt(sc.nextLine());
                 if (chooseYesNo == 1) {
                     teacherList.remove(teacher);
+                    WriteFileUtil.writeTeacherFile(PATH,teacherList);
                     System.out.println("Xóa thành công!.");
                 }
                 isFlag = true;
@@ -96,7 +97,7 @@ public class TeacherService implements ITeacherService {
     @Override
     public void displayAllTeacher() {
         for (Teacher teacher : teacherList) {
-            System.out.println(teacher);
+            System.out.println(teacher.getInfo());
         }
     }
 

@@ -31,7 +31,11 @@ public class StudentController {
                     }
                     break;
                 case 2:
-                    iStudentService.removeStudent();
+                    try {
+                        iStudentService.removeStudent();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                     break;
                 case 3:
                     iStudentService.displayAllStudent();

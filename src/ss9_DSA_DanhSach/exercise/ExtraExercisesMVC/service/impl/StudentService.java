@@ -74,7 +74,7 @@ public class StudentService implements IStudentService {
      * phương thức xóa học sinh khỏi danh sách.
      */
     @Override
-    public void removeStudent() {
+    public void removeStudent() throws IOException {
         System.out.println("nhập vào id học sinh cần xóa: ");
         int idRemove = Integer.parseInt(scanner.nextLine());
         boolean isFlag = false;
@@ -86,6 +86,7 @@ public class StudentService implements IStudentService {
                 int chooseYesNo = Integer.parseInt(scanner.nextLine());
                 if (chooseYesNo == 1) {
                     studentList.remove(student);
+                   WriteFileUtil.writeStudentFile(PATH,studentList);
                     System.out.println("Xóa thành công!.");
                 }
                 isFlag = true;
@@ -104,7 +105,7 @@ public class StudentService implements IStudentService {
     @Override
     public void displayAllStudent() {
         for (Student student : studentList) {
-            System.out.println(student);
+            System.out.println(student.getInfo());
         }
     }
 

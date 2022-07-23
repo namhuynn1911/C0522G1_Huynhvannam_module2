@@ -2,39 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7a53b8-e305-412b-a885-32f9cd162e1b" name="Changes" comment="&quot;add ss10&quot;">
-      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/file/new.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/file/student.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/file/student2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/file/teacher.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/file/teacher2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/utils/ReadFileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/utils/WriteFileUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss16_io_text_file/practice/demo_copy_file_text/file/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss16_io_text_file/practice/demo_copy_file_text/file/student.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss16_io_text_file/practice/demo_copy_file_text/service/impl/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss16_io_text_file/practice/demo_copy_file_text/service/impl/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss16_io_text_file/practice/demo_copy_file_text/utils/ReadFileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss16_io_text_file/practice/demo_copy_file_text/utils/ReadFileUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/model/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/IStudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/IStudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/file/student2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/file/student2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/module2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/module2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/module2/src/ss16_io_text_file/practice/demo_copy_file_text/file/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/module2/src/ss16_io_text_file/practice/demo_copy_file_text/file/student.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/module2/ss12_javaCollectionFramework/practice/hashMapAndhashSet/service/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/module2/ss16_io_text_file/practice/demo_copy_file_text/utils/ReadFileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/module2/ss16_io_text_file/practice/demo_copy_file_text/utils/ReadFileUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/module2/ss16_io_text_file/practice/demo_copy_file_text/utils/WriteFileUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/module2/ss5_AccessModifier/exercise/Student2/TestStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/module2/ss5_AccessModifier/practice/StaticMethod/TestStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/module2/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/file/student2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/module2/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/file/student2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/MainController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/TeacherController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/model/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/IStudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/IStudentService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/TeacherService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/file/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/file/student.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/service/impl/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/service/impl/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/utils/ReadFileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16_io_text_file/practice/demo_copy_file_text/utils/ReadFileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/module2/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/TeacherService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/file/student2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/file/student2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/IStudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/StudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/service/impl/TeacherService.java" afterDir="false" />
@@ -229,7 +206,7 @@
       <workItem from="1658488944867" duration="2284000" />
       <workItem from="1658491264917" duration="190000" />
       <workItem from="1658491475334" duration="886000" />
-      <workItem from="1658543515468" duration="5646000" />
+      <workItem from="1658543515468" duration="6406000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;add ss10&quot;">
       <created>1657718394076</created>
