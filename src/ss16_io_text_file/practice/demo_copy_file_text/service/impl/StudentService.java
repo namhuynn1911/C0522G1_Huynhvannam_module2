@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class StudentService implements IStudentService {
-    private static final String PATH="src/ss16_io_text_file/practice/demo_copy_file_text/file/student.txt";
+    private static final String PATH="src/ss16_io_text_file/practice/demo_copy_file_text/file/new.csv";
     List<Student> students;
 
     {

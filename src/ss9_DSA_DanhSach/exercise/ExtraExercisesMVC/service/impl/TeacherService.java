@@ -4,29 +4,62 @@ import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.model.Student;
 import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.model.Teacher;
 import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.DuplicateIDException;
 import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.ITeacherService;
+import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.utils.ReadFileUtil;
+import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.utils.WriteFileUtil;
 
+import java.io.IOException;
 import java.util.*;
 
 public class TeacherService implements ITeacherService {
-    private static final List<Teacher> teacherList = new ArrayList<>();
-    private static final Scanner sc = new Scanner(System.in);
+    private static final String PATH = "src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/file/teacher2.txt";
+    private static Scanner sc = new Scanner(System.in);
 
-    static {
-        teacherList.add(new Teacher(1, "lê thị vân anh", "20/11/1993", "nữ", "toán"));
-        teacherList.add(new Teacher(2, "nguyễn thị kiều trinh", "20/11/1997", "nữ", "lý"));
-        teacherList.add(new Teacher(3, "huỳnh thị hiền", "20/11/1997", "nữ", "hóa"));
-        teacherList.add(new Teacher(4, "võ thị mỹ ngân", "20/11/1993", "nữ", "sinh"));
+
+    List<Teacher> teacherList;
+
+    {
+        try {
+            teacherList = ReadFileUtil.readTeacgerFile(PATH);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
      * phương thức để thêm thành viên cho mảng dánh sách
      */
     @Override
-    public void addTeacher() {
-        Teacher teacher = infoTeacher();
-        teacherList.add(teacher);
-        System.out.println("thêm giáo viên thành công:");
+    public void addTeacher() throws IOException {
+        int id = 0;
+        while (true) {
+            try {
 
+                System.out.print("Nhập id: ");
+                id = Integer.parseInt(sc.nextLine());
+                for (Teacher teacher : teacherList) {
+                    if (teacher.getId() == id) {
+                        throw new DuplicateIDException("id đã trùng,yêu cầu nhập lại");
+                    }
+                }
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("bạn phải nhập số nguyên,yêu cầu nhập lại");
+            } catch (DuplicateIDException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+        System.out.print("Nhập name: ");
+        String name = sc.nextLine();
+        System.out.print("Nhập ngày sinh: ");
+        String dateOfBirth = sc.nextLine();
+        System.out.print("giới tính: ");
+        String gender = sc.nextLine();
+        System.out.println("nhập vào chuyên môn");
+        String specialize = sc.nextLine();
+        System.out.println("thêm giáo viên thành công:");
+        Teacher teacher = new Teacher(id, name, dateOfBirth, gender, specialize);
+        teacherList.add(teacher);
+        WriteFileUtil.writeTeacherFile(PATH,teacherList);
     }
 
     /**
@@ -121,37 +154,5 @@ public class TeacherService implements ITeacherService {
         }
     }
 
-    /**
-     * phương thức để cho người dùng nhập thông tin
-     */
-    public static Teacher infoTeacher() {
-        int id=0;
-        while (true) {
-            try {
 
-                System.out.print("Nhập id: ");
-                id = Integer.parseInt(sc.nextLine());
-                for (Teacher teacher:teacherList) {
-                    if(teacher.getId()==id) {
-                        throw new DuplicateIDException("id đã trùng,yêu cầu nhập lại");
-                    }
-                }
-                break;
-            }catch (NumberFormatException e) {
-                System.out.println("bạn phải nhập số nguyên,yêu cầu nhập lại");
-            }catch (DuplicateIDException e) {
-                System.out.println(e.getMessage());
-            }
-        }
-        System.out.print("Nhập name: ");
-        String name = sc.nextLine();
-        System.out.print("Nhập ngày sinh: ");
-        String dateOfBirth = sc.nextLine();
-        System.out.print("giới tính: ");
-        String gender = sc.nextLine();
-        System.out.println("nhập vào chuyên môn");
-        String specialize = sc.nextLine();
-        Teacher teacher = new Teacher(id, name, dateOfBirth, gender, specialize);
-        return teacher;
-    }
 }

@@ -5,6 +5,7 @@ import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.ITeacherService;
 import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.impl.StudentService;
 import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.impl.TeacherService;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class StudentController {
@@ -23,7 +24,11 @@ public class StudentController {
             int choose = Integer.parseInt(sc.nextLine());
             switch (choose) {
                 case 1:
-                    iStudentService.addStudent();
+                    try {
+                        iStudentService.addStudent();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                     break;
                 case 2:
                     iStudentService.removeStudent();

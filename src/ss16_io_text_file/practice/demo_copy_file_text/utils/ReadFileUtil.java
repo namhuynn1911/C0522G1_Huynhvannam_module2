@@ -31,7 +31,6 @@ public class ReadFileUtil {
             info=line.split(",");
             list.add(new Student(Integer.parseInt(info[0]),info[1],Double.parseDouble(info[2])));
         }
-        System.out.println(list);
         return list;
     }
 }

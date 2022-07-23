@@ -3,13 +3,14 @@ package ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.controller;
 import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.ITeacherService;
 import ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.service.impl.TeacherService;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class TeacherController {
     private Scanner sc = new Scanner(System.in);
     private ITeacherService iTeacherService = new TeacherService();
 
-    public void menuTeacher() {
+    public void menuTeacher() throws IOException {
         do {
             System.out.println("Quản lý giảng viên \n" +
                     "1. Thêm mới giảng viên \n" +

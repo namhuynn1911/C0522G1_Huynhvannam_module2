@@ -1,9 +1,10 @@
 package ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.controller;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class MainController {
-    public static void menuController() {
+    public static void menuController() throws IOException {
         StudentController studentController = new StudentController();
         TeacherController teacherController = new TeacherController();
         Scanner sc = new Scanner(System.in);
