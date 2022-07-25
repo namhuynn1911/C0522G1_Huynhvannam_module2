@@ -27,8 +27,8 @@ public class CopyFle {
     }
 
     public static void main(String[] args) {
-        String sourcePath = "src/ss17_binary_file/exercise/copy_file/source.txt";
-        String targetPath = "src/ss17_binary_file/exercise/copy_file/target.txt";
+        String sourcePath = "src/ss17_binary_file/exercise/copy_file/source.csv";
+        String targetPath = "src/ss17_binary_file/exercise/copy_file/target.csv";
         try {
             File sourceFile = new File(sourcePath);
             File targetFile = new File(targetPath);
