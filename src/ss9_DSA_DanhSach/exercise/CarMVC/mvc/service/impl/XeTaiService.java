@@ -2,33 +2,40 @@ package ss9_DSA_DanhSach.exercise.CarMVC.mvc.service.impl;
 
 import ss9_DSA_DanhSach.exercise.CarMVC.mvc.model.XeTai;
 import ss9_DSA_DanhSach.exercise.CarMVC.mvc.service.IXeTaiService;
+import ss9_DSA_DanhSach.exercise.CarMVC.mvc.utils.ReadFileUtil;
+import ss9_DSA_DanhSach.exercise.CarMVC.mvc.utils.WriteFileUtil;
 
 
-import java.util.ArrayList;
+import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 
 public class XeTaiService implements IXeTaiService {
-    private static List<XeTai> xeTaiList = new ArrayList<>();
+    private static final String PATH="src/ss9_DSA_DanhSach/exercise/CarMVC/mvc/data/xetai.csv";
+   // private static List<XeTai> xeTaiList = new ArrayList<>();
     private static Scanner sc = new Scanner(System.in);
 
     @Override
-    public void addXeTai() {
+    public void addXeTai() throws IOException {
+        List<XeTai> xeTaiList= ReadFileUtil.readXeTaiFile(PATH);
         XeTai xeTai = thongTinXeTai();
         xeTaiList.add(xeTai);
         System.out.println("thêm mới thành công:");
+        WriteFileUtil.writeXeTaiFile(PATH,xeTaiList);
     }
 
     @Override
-    public void displayXeTai() {
+    public void displayXeTai() throws IOException {
+        List<XeTai> xeTaiList= ReadFileUtil.readXeTaiFile(PATH);
         for (XeTai xeTai : xeTaiList) {
             System.out.println(xeTai);
         }
     }
 
     @Override
-    public void removeXeTai() {
-        System.out.println("nhập vào biển kiểm soát học sinh cần xóa: ");
+    public void removeXeTai() throws IOException {
+        List<XeTai> xeTaiList= ReadFileUtil.readXeTaiFile(PATH);
+        System.out.println("nhập vào biển kiểm soát cần xóa: ");
         int idRemove = Integer.parseInt(sc.nextLine());
         boolean kiemTra = false;
         for (XeTai xeTai : xeTaiList) {
@@ -39,6 +46,7 @@ public class XeTaiService implements IXeTaiService {
                 int kiemTraCoKhong = Integer.parseInt(sc.nextLine());
                 if (kiemTraCoKhong == 1) {
                     xeTaiList.remove(xeTai);
+                    WriteFileUtil.writeXeTaiFile(PATH,xeTaiList);
                     System.out.println("Xóa thành công!.");
                 }
                 kiemTra = true;
@@ -52,7 +60,8 @@ public class XeTaiService implements IXeTaiService {
     }
 
     @Override
-    public void timXeTai() {
+    public void timXeTai() throws IOException {
+        List<XeTai> xeTaiList= ReadFileUtil.readXeTaiFile(PATH);
         System.out.println("Mời bạn nhập biển kiểm soát cần tìm: ");
         int xeTimKiem = Integer.parseInt(sc.nextLine());
         boolean bienTam = false;

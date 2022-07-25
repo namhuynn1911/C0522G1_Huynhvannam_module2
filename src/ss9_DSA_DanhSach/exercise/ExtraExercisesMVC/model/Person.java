@@ -1,6 +1,6 @@
 package ss9_DSA_DanhSach.exercise.ExtraExercisesMVC.model;
 
-public class Person {
+public abstract class Person {
     private int id;
     private String name;
     private String dateOfBirth;

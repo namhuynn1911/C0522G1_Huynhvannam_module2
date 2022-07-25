@@ -21,6 +21,19 @@ public class Oto extends Xe {
         this.soCho = soCho;
     }
 
+    public String getKieuXe() {
+        return kieuXe;
+    }
+
+    public void setKieuXe(String kieuXe) {
+        this.kieuXe = kieuXe;
+    }
+
+    public String getInfo() {
+        return String.format("%s,%s,%s,%s,%s,%s \n",this.getTenChu(),this.getTenCongTy(),this.getNamSanXuat(),
+                this.getBienXe(),this.getSoCho(),this.getKieuXe());
+    }
+
     @Override
     public String toString() {
         return super.toString() + "Oto" +

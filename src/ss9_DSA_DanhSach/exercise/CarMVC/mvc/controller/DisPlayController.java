@@ -7,11 +7,12 @@ import ss9_DSA_DanhSach.exercise.CarMVC.mvc.service.impl.OtoService;
 import ss9_DSA_DanhSach.exercise.CarMVC.mvc.service.impl.XeMayService;
 import ss9_DSA_DanhSach.exercise.CarMVC.mvc.service.impl.XeTaiService;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class DisPlayController {
 
-    public static void hienThi() {
+    public static void hienThi() throws IOException {
         Scanner sc = new Scanner(System.in);
 
         IOtoService iOtoService = new OtoService();

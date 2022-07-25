@@ -1,9 +1,10 @@
 package ss9_DSA_DanhSach.exercise.CarMVC.mvc.controller;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class MainController {
-    public static void danhSanhXe() {
+    public static void danhSanhXe() throws IOException {
         Scanner sc = new Scanner(System.in);
         do {
             System.out.println("====CHƯƠNG TRÌNH QUẢN LÝ PHƯƠNG TIỆN GIAO THÔNG==== \n" +

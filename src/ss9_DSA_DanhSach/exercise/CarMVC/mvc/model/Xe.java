@@ -1,6 +1,6 @@
 package ss9_DSA_DanhSach.exercise.CarMVC.mvc.model;
 
-public class Xe {
+public abstract class Xe {
     private String tenChu;
     private String tenCongTy;
     private int namSanXuat;

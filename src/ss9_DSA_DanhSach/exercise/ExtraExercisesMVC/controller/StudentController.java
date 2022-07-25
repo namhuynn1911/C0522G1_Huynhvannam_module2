@@ -12,7 +12,7 @@ public class StudentController {
     private Scanner sc = new Scanner(System.in);
     private IStudentService iStudentService = new StudentService();
 
-    public void menuStudent() {
+    public void menuStudent() throws IOException {
         do {
             System.out.println("Quản lý học sinh\n" +
                     "1. Thêm học sinh \n" +
@@ -21,21 +21,18 @@ public class StudentController {
                     "4. Tìm kiếm theo id hoặc theo tên \n" +
                     "5. Sắp xếp theo tên \n" +
                     "6. Quay lại chức năng chính");
-            int choose = Integer.parseInt(sc.nextLine());
+            int choose = 0;
+            try {
+                choose = Integer.parseInt(sc.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("yêu cầu nhập số");
+            }
             switch (choose) {
                 case 1:
-                    try {
-                        iStudentService.addStudent();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+                    iStudentService.addStudent();
                     break;
                 case 2:
-                    try {
-                        iStudentService.removeStudent();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+                    iStudentService.removeStudent();
                     break;
                 case 3:
                     iStudentService.displayAllStudent();
@@ -46,6 +43,7 @@ public class StudentController {
                     break;
                 case 5:
                     iStudentService.bubbleSort();
+                    break;
                 case 6:
                     return;
             }

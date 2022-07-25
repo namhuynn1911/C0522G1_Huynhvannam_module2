@@ -7,9 +7,9 @@ public interface IStudentService {
 
     void removeStudent() throws IOException;
 
-    void displayAllStudent();
+    void displayAllStudent() throws IOException;
 
-    void findStudent();
+    void findStudent() throws IOException;
 
-    void bubbleSort();
+    void bubbleSort() throws IOException;
 }

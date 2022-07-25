@@ -7,9 +7,9 @@ public interface ITeacherService {
 
     void remoTeacher() throws IOException;
 
-    void displayAllTeacher();
+    void displayAllTeacher() throws IOException;
 
     void findTeacher();
 
-    void bubbleSort();
+    void bubbleSort() throws IOException;
 }

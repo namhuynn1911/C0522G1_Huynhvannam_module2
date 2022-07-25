@@ -7,10 +7,11 @@ import ss9_DSA_DanhSach.exercise.CarMVC.mvc.service.impl.OtoService;
 import ss9_DSA_DanhSach.exercise.CarMVC.mvc.service.impl.XeMayService;
 import ss9_DSA_DanhSach.exercise.CarMVC.mvc.service.impl.XeTaiService;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class FindController {
-    public static void timKiem() {
+    public static void timKiem() throws IOException {
         Scanner sc = new Scanner(System.in);
         IXeTaiService iXeTaiService = new XeTaiService();
         IOtoService iOtoService = new OtoService();

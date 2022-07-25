@@ -11,18 +11,17 @@ import java.io.IOException;
 import java.util.*;
 
 public class TeacherService implements ITeacherService {
-    private static final String PATH = "src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/file/teacher2.txt";
+    private static final String PATH = "src/ss9_DSA_DanhSach/exercise/ExtraExercisesMVC/file/teacher.csv";
+    private static List<Teacher> teacherList=new ArrayList<>();
     private static Scanner sc = new Scanner(System.in);
 
-
-    List<Teacher> teacherList;
-
-    {
-        try {
-            teacherList = ReadFileUtil.readTeacgerFile(PATH);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public void writeTeacher() throws IOException {
+        WriteFileUtil.writeTeacherFile(PATH,teacherList);
+    }
+    public void readTeacher() throws IOException {
+        List<Teacher> list = ReadFileUtil.readTeacgerFile(PATH);
+        teacherList.clear();
+        teacherList.addAll(list);
     }
 
     /**
@@ -30,36 +29,10 @@ public class TeacherService implements ITeacherService {
      */
     @Override
     public void addTeacher() throws IOException {
-        int id = 0;
-        while (true) {
-            try {
-
-                System.out.print("Nhập id: ");
-                id = Integer.parseInt(sc.nextLine());
-                for (Teacher teacher : teacherList) {
-                    if (teacher.getId() == id) {
-                        throw new DuplicateIDException("id đã trùng,yêu cầu nhập lại");
-                    }
-                }
-                break;
-            } catch (NumberFormatException e) {
-                System.out.println("bạn phải nhập số nguyên,yêu cầu nhập lại");
-            } catch (DuplicateIDException e) {
-                System.out.println(e.getMessage());
-            }
-        }
-        System.out.print("Nhập name: ");
-        String name = sc.nextLine();
-        System.out.print("Nhập ngày sinh: ");
-        String dateOfBirth = sc.nextLine();
-        System.out.print("giới tính: ");
-        String gender = sc.nextLine();
-        System.out.println("nhập vào chuyên môn");
-        String specialize = sc.nextLine();
-        System.out.println("thêm giáo viên thành công:");
-        Teacher teacher = new Teacher(id, name, dateOfBirth, gender, specialize);
-        teacherList.add(teacher);
-        WriteFileUtil.writeTeacherFile(PATH,teacherList);
+      readTeacher();
+       Teacher teacher=infoTeacher();
+       teacherList.add(teacher);
+       writeTeacher();
     }
 
     /**
@@ -67,6 +40,7 @@ public class TeacherService implements ITeacherService {
      */
     @Override
     public void remoTeacher() throws IOException {
+        readTeacher();
         System.out.println("nhập vào id học sinh cần xóa: ");
         int idRemove = Integer.parseInt(sc.nextLine());
         boolean isFlag = false;
@@ -78,7 +52,7 @@ public class TeacherService implements ITeacherService {
                 int chooseYesNo = Integer.parseInt(sc.nextLine());
                 if (chooseYesNo == 1) {
                     teacherList.remove(teacher);
-                    WriteFileUtil.writeTeacherFile(PATH,teacherList);
+                  writeTeacher();
                     System.out.println("Xóa thành công!.");
                 }
                 isFlag = true;
@@ -95,7 +69,8 @@ public class TeacherService implements ITeacherService {
      * phương thức hiển thị danh sách giảng viên
      */
     @Override
-    public void displayAllTeacher() {
+    public void displayAllTeacher() throws IOException {
+        readTeacher();
         for (Teacher teacher : teacherList) {
             System.out.println(teacher.getInfo());
         }
@@ -142,7 +117,7 @@ public class TeacherService implements ITeacherService {
     }
 
     @Override
-    public void bubbleSort() {
+    public void bubbleSort() throws IOException {
         boolean nextTip = true;
         for (int i = 0; i < teacherList.size() - 1 && nextTip; i++) {
             nextTip = false;
@@ -153,6 +128,38 @@ public class TeacherService implements ITeacherService {
                 }
             }
         }
+        writeTeacher();
+    }
+    public static Teacher infoTeacher() {
+        int id = 0;
+        while (true) {
+            try {
+
+                System.out.print("Nhập id: ");
+                id = Integer.parseInt(sc.nextLine());
+                for (Teacher teacher : teacherList) {
+                    if (teacher.getId() == id) {
+                        throw new DuplicateIDException("id đã trùng,yêu cầu nhập lại");
+                    }
+                }
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("bạn phải nhập số nguyên,yêu cầu nhập lại");
+            } catch (DuplicateIDException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+        System.out.print("Nhập name: ");
+        String name = sc.nextLine();
+        System.out.print("Nhập ngày sinh: ");
+        String dateOfBirth = sc.nextLine();
+        System.out.print("giới tính: ");
+        String gender = sc.nextLine();
+        System.out.println("nhập vào chuyên môn");
+        String specialize = sc.nextLine();
+        System.out.println("thêm giáo viên thành công:");
+        Teacher teacher=new Teacher(id,name,dateOfBirth,gender,specialize);
+        return teacher;
     }
 
 

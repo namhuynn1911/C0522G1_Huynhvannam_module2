@@ -26,7 +26,6 @@ public class WriteFileUtil {
         }
         writeFile(path,data);
     }
-
     public static void writeTeacherFile(String path, List<Teacher> teachers) throws IOException {
         String data="";
         for (Teacher teacher:teachers) {
@@ -34,4 +33,5 @@ public class WriteFileUtil {
         }
         writeFile(path,data);
     }
+
 }

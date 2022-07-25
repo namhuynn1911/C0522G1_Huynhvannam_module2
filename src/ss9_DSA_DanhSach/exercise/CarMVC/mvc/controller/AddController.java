@@ -7,12 +7,13 @@ import ss9_DSA_DanhSach.exercise.CarMVC.mvc.service.impl.OtoService;
 import ss9_DSA_DanhSach.exercise.CarMVC.mvc.service.impl.XeMayService;
 import ss9_DSA_DanhSach.exercise.CarMVC.mvc.service.impl.XeTaiService;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class AddController {
 
 
-    public static void themXe() {
+    public static void themXe() throws IOException {
         Scanner sc = new Scanner(System.in);
         IOtoService iOtoService = new OtoService();
         IXeTaiService iXeTaiService = new XeTaiService();

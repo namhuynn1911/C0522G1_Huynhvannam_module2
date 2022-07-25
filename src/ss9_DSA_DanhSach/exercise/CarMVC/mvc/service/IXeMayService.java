@@ -1,11 +1,13 @@
 package ss9_DSA_DanhSach.exercise.CarMVC.mvc.service;
 
+import java.io.IOException;
+
 public interface IXeMayService {
-    void addXeMay();
+    void addXeMay() throws IOException;
 
-    void displayXeMay();
+    void displayXeMay() throws IOException;
 
-    void removeXeMay();
+    void removeXeMay() throws IOException;
 
-    void timXeNay();
+    void timXeNay() throws IOException;
 }

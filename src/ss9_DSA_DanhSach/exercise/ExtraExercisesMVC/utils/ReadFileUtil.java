@@ -19,7 +19,7 @@ public class ReadFileUtil {
         BufferedReader bufferedReader=new BufferedReader(fileReader);
         String line;
         List<String> stringList=new ArrayList<>();
-        //bufferedReader.readLine();loại bỏ dòng tiêu đề
+        //bufferedReader.readLine();//loại bỏ dòng tiêu đề
         while ((line=bufferedReader.readLine())!=null) {
             stringList.add(line);
         }

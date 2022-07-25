@@ -18,6 +18,10 @@ public class XeTai extends Xe {
     public void setTrongTai(double trongTai) {
         this.trongTai = trongTai;
     }
+    public String getInfo() {
+        return String.format("%s,%s,%s,%s,%s \n",this.getTenChu(),this.getTenCongTy(),this.getNamSanXuat(),this.getBienXe(),
+                this.getTrongTai());
+    }
 
     @Override
     public String toString() {

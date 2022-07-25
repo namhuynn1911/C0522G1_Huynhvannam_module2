@@ -19,7 +19,12 @@ public class TeacherController {
                     "4. Tìm giảng viên theo id \n" +
                     "5. Sắp xếp theo họ và tên \n" +
                     "6. Quay lại chức năng chính");
-            int choose = Integer.parseInt(sc.nextLine());
+            int choose = 0;
+            try {
+                choose = Integer.parseInt(sc.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("yêu cầu nhập số");
+            }
             switch (choose) {
                 case 1:
                     iTeacherService.addTeacher();
@@ -35,6 +40,7 @@ public class TeacherController {
                     break;
                 case 5:
                     iTeacherService.bubbleSort();
+                    break;
                 case 6:
                     return;
             }

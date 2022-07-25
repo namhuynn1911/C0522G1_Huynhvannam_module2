@@ -1,11 +1,13 @@
 package ss9_DSA_DanhSach.exercise.CarMVC.mvc.service;
 
+import java.io.IOException;
+
 public interface IXeTaiService {
-    void addXeTai();
+    void addXeTai() throws IOException;
 
-    void displayXeTai();
+    void displayXeTai() throws IOException;
 
-    void removeXeTai();
+    void removeXeTai() throws IOException;
 
-    void timXeTai();
+    void timXeTai() throws IOException;
 }
