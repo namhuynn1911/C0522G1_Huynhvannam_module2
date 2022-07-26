@@ -9,13 +9,22 @@ public class Customer extends Person {
 
     @Override
     public String getInfo() {
-        return null;
+        return String.format("%s,%s,%s,%s,%d,%d,%s,%s,%s \n",this.getCode(),this.getName(),this.getDateOfBirth(),this.getGender(),
+                this.getId(),this.getNumberPhone(),this.getEmail(),this.getCustomerType(),this.getAddress());
     }
 
     public Customer(String code, String name, String dateOfBirth, String gender,
                     int id, int numberPhone, String email, String customerType, String address) {
         super(code, name, dateOfBirth, gender, id, numberPhone, email);
         this.customerType = customerType;
+        this.address = address;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
         this.address = address;
     }
 
@@ -29,9 +38,7 @@ public class Customer extends Person {
 
     @Override
     public String toString() {
-        return "Customer{" +
-                "customerType='" + customerType + '\'' +
-                ", address='" + address + '\'' +
-                '}';
+        return super.toString()+ " customerType='" + customerType + '\'' +
+                ", address='" + address + '\'';
     }
 }

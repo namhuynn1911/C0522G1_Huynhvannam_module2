@@ -6,4 +6,6 @@ public interface IEmployeeService {
     void displayEployee() throws IOException;
 
     void addEployee() throws IOException;
+
+    void editEmployee();
 }

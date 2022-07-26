@@ -1,9 +1,14 @@
 package CaseStudy_Module2.Tack2.mvc.controller;
 
+import CaseStudy_Module2.Tack2.mvc.service.ICustomerService;
+import CaseStudy_Module2.Tack2.mvc.service.impl.CustomerService;
+
+import java.io.IOException;
 import java.util.Scanner;
 
 public class CustomerController {
-    public static void menuCustomer() {
+    public static void menuCustomer() throws IOException {
+        ICustomerService iCustomerService=new CustomerService();
         Scanner scanner=new Scanner(System.in);
         do{
             System.out.println("===QUẢN LÝ KHÁCH HÀNG=== \n" +
@@ -14,8 +19,14 @@ public class CustomerController {
             int choose= Integer.parseInt(scanner.nextLine());
             switch (choose) {
                 case 1:
+                    iCustomerService.displayCustomer();
+                    break;
                 case 2:
+                    iCustomerService.addCustomer();
+                    break;
                 case 3:
+                    iCustomerService.editCustomer();
+                    break;
                 case 4:
                     return;
             }

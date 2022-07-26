@@ -1,0 +1,14 @@
+ function checkStr(str) {
+        let newString = '';
+        let stringA = str.toLowerCase().trim(); //chuyển chuổi đã nhập sang toàn bộ chữ thường
+        document.write("Chuỗi đang chạy: " + stringA + "<br>");
+        newString += stringA[0].toUpperCase();
+        for (let i = 1; i < stringA.length; i++) {
+            if (stringA[i] !== ' ' && stringA[i - 1] === ' ') {
+                newString += stringA[i].toUpperCase();
+            } else {
+                newString += stringA[i];
+            }
+        }
+        return newString;
+    }

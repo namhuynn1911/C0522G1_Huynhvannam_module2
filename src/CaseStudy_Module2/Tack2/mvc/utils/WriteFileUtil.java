@@ -1,6 +1,7 @@
 package CaseStudy_Module2.Tack2.mvc.utils;
 
 
+import CaseStudy_Module2.Tack2.mvc.model.Customer;
 import CaseStudy_Module2.Tack2.mvc.model.Employee;
 
 import java.io.BufferedWriter;
@@ -21,6 +22,14 @@ public class WriteFileUtil {
         String data="";
         for (Employee employee:employees) {
             data +=employee.getInfo();
+        }
+        writeFile(path,data);
+    }
+
+    public static void writeCustomerFile(String path, List<Customer> customerList) throws IOException {
+        String data="";
+        for (Customer customer:customerList) {
+            data +=customer.getInfo();
         }
         writeFile(path,data);
     }

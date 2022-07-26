@@ -88,7 +88,7 @@ public abstract class Person {
                 ", name='" + name + '\'' +
                 ", dateOfBirth='" + dateOfBirth + '\'' +
                 ", eged='" + gender + '\'' +
-                ", numberCMND=" + id +
+                ", id=" + id +
                 ", numberPhone=" + numberPhone +
                 ", email='" + email + '\'' +
                 '}';

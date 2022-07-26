@@ -19,7 +19,7 @@ public class Teacher extends Person {
         this.specialize = specialize;
     }
     public String getInfo() {
-        return String.format("%s,%s,%s,%s,%s \n",this.getId(),this.getName(),this.getDateOfBirth(),this.getGender(),
+        return String.format("%s,%s,%s,%s,%s\n",this.getId(),this.getName(),this.getDateOfBirth(),this.getGender(),
                 this.getSpecialize());
     }
 

@@ -26,6 +26,8 @@ public class EmployeeController {
                     iEmployeeService.addEployee();
                     break;
                 case 3:
+                    iEmployeeService.editEmployee();
+                    break;
                 case 4:
                     return;
             }
