@@ -1,6 +1,5 @@
 package CaseStudy_Module2.Tack2.mvc.model;
 
-import CaseStudy_Module2.Tack2.mvc.model.Facility;
 
 public class Room extends Facility {
 private String freeService;
@@ -10,11 +9,12 @@ private String freeService;
 
     @Override
     public String getInfo() {
-        return null;
+        return String.format("%s,%s,%s,%s,%s,%s,%s",this.getServiceId(),this.getServiceName(),this.getUsableArea(),this.getRent(),
+                this.getAmountMax(),this.getTime(),this.getFreeService());
     }
 
-    public Room(String serviceName, int usableArea, double rent, int amountMax, String time, String freeService) {
-        super(serviceName, usableArea, rent, amountMax, time);
+    public Room(String serviceId, String serviceName, int usableArea, double rent, int amountMax, String time, String freeService) {
+        super(serviceId, serviceName, usableArea, rent, amountMax, time);
         this.freeService = freeService;
     }
 
@@ -28,7 +28,7 @@ private String freeService;
 
     @Override
     public String toString() {
-        return "Room" +
-                "freeService='" + freeService + '\'';
+        return super.toString() +
+                " freeService='" + freeService ;
     }
 }

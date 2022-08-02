@@ -1,6 +1,6 @@
 package CaseStudy_Module2.Tack2.mvc.model;
 
-import CaseStudy_Module2.Tack2.mvc.model.Facility;
+
 
 public class Villa extends Facility {
     private String standard;
@@ -12,18 +12,13 @@ public class Villa extends Facility {
 
     @Override
     public String getInfo() {
-        return null;
+        return String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s",this.getServiceId(), this.getServiceName(), this.getUsableArea(), this.getRent(),
+                this.getAmountMax(), this.getTime(), this.getStandard(), this.getPoolArea(), this.getFloorNumber());
     }
 
-    public Villa(String standard, double poolArea, int floorNumber) {
-        this.standard = standard;
-        this.poolArea = poolArea;
-        this.floorNumber = floorNumber;
-    }
-
-    public Villa(String serviceName, int usableArea, double rent, int amountMax,
+    public Villa(String serviceId, String serviceName, int usableArea, double rent, int amountMax,
                  String time, String standard, double poolArea, int floorNumber) {
-        super(serviceName, usableArea, rent, amountMax, time);
+        super(serviceId, serviceName, usableArea, rent, amountMax, time);
         this.standard = standard;
         this.poolArea = poolArea;
         this.floorNumber = floorNumber;
@@ -53,11 +48,13 @@ public class Villa extends Facility {
         this.floorNumber = floorNumber;
     }
 
+
     @Override
     public String toString() {
-        return "Villa " +
-                "standard='" + standard + '\'' +
+        return super.toString() +
+                ", standard='" + standard +
                 ", poolArea=" + poolArea +
                 ", floorNumber=" + floorNumber;
+
     }
 }

@@ -6,14 +6,14 @@ public abstract class Person {
     private String dateOfBirth;
     private String gender;
     private int id;
-    private int numberPhone;
+    private String numberPhone;
     private String email;
 
     public Person() {
     }
 
     public Person(String code, String name, String dateOfBirth, String gender,
-                  int id, int numberPhone, String email) {
+                  int id, String numberPhone, String email) {
         this.code = code;
         this.name = name;
         this.dateOfBirth = dateOfBirth;
@@ -63,11 +63,11 @@ public abstract class Person {
         this.id = id;
     }
 
-    public int getNumberPhone() {
+    public String getNumberPhone() {
         return numberPhone;
     }
 
-    public void setNumberPhone(int numberPhone) {
+    public void setNumberPhone(String numberPhone) {
         this.numberPhone = numberPhone;
     }
 

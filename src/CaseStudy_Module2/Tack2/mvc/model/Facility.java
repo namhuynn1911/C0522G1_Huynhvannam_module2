@@ -1,6 +1,7 @@
 package CaseStudy_Module2.Tack2.mvc.model;
 
 public abstract class Facility {
+    private String serviceId;
     private String serviceName;
     private int usableArea;
     private double rent;
@@ -10,13 +11,15 @@ public abstract class Facility {
     public Facility() {
     }
 
-    public Facility(String serviceName, int usableArea, double rent, int amountMax, String time) {
+    public Facility(String serviceId, String serviceName, int usableArea, double rent, int amountMax, String time) {
+        this.serviceId = serviceId;
         this.serviceName = serviceName;
         this.usableArea = usableArea;
         this.rent = rent;
         this.amountMax = amountMax;
         this.time = time;
     }
+
     public abstract String getInfo();
 
     public String getServiceName() {
@@ -43,6 +46,14 @@ public abstract class Facility {
         this.rent = rent;
     }
 
+    public String getServiceId() {
+        return serviceId;
+    }
+
+    public void setServiceId(String serviceId) {
+        this.serviceId = serviceId;
+    }
+
     public int getAmountMax() {
         return amountMax;
     }
@@ -61,12 +72,12 @@ public abstract class Facility {
 
     @Override
     public String toString() {
-        return "Facility " +
-                "serviceName='" + serviceName + '\'' +
+        return "serviceId='" + serviceId +
+                ", serviceName='" + serviceName +
                 ", usableArea=" + usableArea +
                 ", rent=" + rent +
                 ", amountMax=" + amountMax +
-                ", time='" + time + '\'';
+                ", time='" + time  ;
     }
 }
 

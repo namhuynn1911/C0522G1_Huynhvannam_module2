@@ -1,0 +1,18 @@
+public void find() {
+    List<BankAccount> bankAccountList = ReadWriteBankAccountUtil.readBankAccountFile(PATH_PAYMENT);
+
+    System.out.println("Mời bạn nhập mã tài khoản hoặc tên chủ tài khoản cần tìm kiếm: ");
+    String find = SCANNER.nextLine();
+    boolean isExist = false;
+
+    for (BankAccount bankAccount : bankAccountList) {
+        if (bankAccount.getCode().contains(find) || bankAccount.getName().contains(find)) {
+            System.out.println(bankAccount);
+            isExist = true;
+        }
+    }
+
+    if (!isExist) {
+        System.out.println("Không tìm thấy!");
+    }
+}

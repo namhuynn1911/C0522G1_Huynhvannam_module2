@@ -5,33 +5,18 @@ import CaseStudy_Module2.Tack2.mvc.service.ICustomerService;
 import CaseStudy_Module2.Tack2.mvc.utils.ReadFileUtil;
 import CaseStudy_Module2.Tack2.mvc.utils.WriteFileUtil;
 
-import java.io.IOException;
-import java.util.LinkedList;
+
 import java.util.List;
 import java.util.Scanner;
 
 public class CustomerService implements ICustomerService {
     private static final String PATH = "src/CaseStudy_Module2/Tack2/mvc/data/customer.csv";
-    private static List<Customer> customerList = new LinkedList<>();
     private static final Scanner SCANNER = new Scanner(System.in);
 
-    public void writeCustomer() throws IOException {
-        WriteFileUtil.writeCustomerFile(PATH, customerList);
-    }
-
-    public void readCustomer() throws IOException {
-        List<Customer> list = ReadFileUtil.readCustomerFile(PATH);
-        customerList.clear();
-        customerList.addAll(list);
-    }
 
     @Override
     public void displayCustomer() {
-        try {
-            readCustomer();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+            List<Customer> customerList = ReadFileUtil.readCustomerFile(PATH);
         for (Customer customer : customerList) {
             System.out.println(customer);
         }
@@ -39,28 +24,19 @@ public class CustomerService implements ICustomerService {
 
     @Override
     public void addCustomer() {
-        try {
-            readCustomer();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
+            List<Customer> customerList = ReadFileUtil.readCustomerFile(PATH);
+
         Customer customer = infoCustomer();
         customerList.add(customer);
-        try {
-            writeCustomer();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
+            WriteFileUtil.writeCustomerFile(PATH, customerList);
         System.out.println("thêm thành công");
     }
 
     @Override
-    public void editCustomer() {
-        try {
-            readCustomer();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public void editCustomer(){
+            List<Customer> customerList = ReadFileUtil.readCustomerFile(PATH);
         System.out.println("nhập vào id cần chỉnh sửa: ");
         int id = Integer.parseInt(SCANNER.nextLine());
         for (Customer customer : customerList) {
@@ -80,8 +56,16 @@ public class CustomerService implements ICustomerService {
                 System.out.println("nhập vào id: ");
                 customer.setId(Integer.parseInt(SCANNER.nextLine()));
 
-                System.out.println("nhập vào số điện thoại: ");
-                customer.setNumberPhone(Integer.parseInt(SCANNER.nextLine()));
+                while (true) {
+                    System.out.println("nhập vào số điện thoại: ");
+                    String phone=SCANNER.nextLine();
+                    if(phone.matches("[0]\\d{9}")) {
+                        customer.setNumberPhone(phone);
+                        break;
+                    }else {
+                        System.out.println("bạn đã nhập sai định dạng.yêu cầu nhập lại");
+                    }
+                }
 
                 System.out.println("nhập vào email: ");
                 customer.setEmail(SCANNER.nextLine());
@@ -95,11 +79,8 @@ public class CustomerService implements ICustomerService {
             }
                 System.out.println("không tìm thấy nhân viên này");
         }
-        try {
-            writeCustomer();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
+            WriteFileUtil.writeCustomerFile(PATH, customerList);
     }
 
     public static Customer infoCustomer() {
@@ -119,7 +100,7 @@ public class CustomerService implements ICustomerService {
         int id = Integer.parseInt(SCANNER.nextLine());
 
         System.out.println("nhập vào số điệnt thoại ");
-        int numberPhone = Integer.parseInt(SCANNER.nextLine());
+        String numberPhone = SCANNER.nextLine();
 
         System.out.println("nhập vào email ");
         String email = SCANNER.nextLine();

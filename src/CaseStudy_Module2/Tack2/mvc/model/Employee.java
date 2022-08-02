@@ -10,12 +10,12 @@ private double salary;
 
     @Override
     public String getInfo() {
-        return String.format("%s,%s,%s,%s,%d,%d,%s,%s,%s,%1.2f \n",this.getCode(),this.getName(),this.getDateOfBirth(),this.getGender(),
+        return String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s \n",this.getCode(),this.getName(),this.getDateOfBirth(),this.getGender(),
                 this.getId(),this.getNumberPhone(),this.getEmail(),this.getAcademicLevel(),this.getPosition(),this.getSalary());
     }
 
     public Employee(String code, String name, String dateOfBirth, String gender, int id,
-                    int numberPhone, String email, String academicLevel, String position, double salary) {
+                    String numberPhone, String email, String academicLevel, String position, double salary) {
         super(code, name, dateOfBirth, gender, id, numberPhone, email);
         this.academicLevel = academicLevel;
         this.position = position;

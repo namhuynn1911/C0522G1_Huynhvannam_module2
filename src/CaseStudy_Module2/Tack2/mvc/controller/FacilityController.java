@@ -1,8 +1,12 @@
 package CaseStudy_Module2.Tack2.mvc.controller;
 
+import CaseStudy_Module2.Tack2.mvc.service.IService;
+import CaseStudy_Module2.Tack2.mvc.service.impl.FacilityService;
+
 import java.util.Scanner;
 
 public class FacilityController {
+    static IService iService=  new FacilityService();
     public static void menuFacility() {
         Scanner scanner = new Scanner(System.in);
         do {
@@ -14,8 +18,14 @@ public class FacilityController {
             int choose = Integer.parseInt(scanner.nextLine());
             switch (choose) {
                 case 1:
+                   iService.displayService();
+                    break;
                 case 2:
+                    MenuAddFacility.menuAdd();
+                    break;
                 case 3:
+                    iService.displayMaintenance();
+                    break;
                 case 4:
                     return;
             }

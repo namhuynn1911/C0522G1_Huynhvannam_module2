@@ -1,0 +1,8 @@
+String bookingId;
+if (bookingList.isEmpty()) {
+    bookingId = "BK-1";
+} else {
+    String[] arr = bookingList.last().getBookingId().split("-");
+    bookingId = "BK-" + (Integer.parseInt(arr[1]) + 1);
+}
+System.out.println("\nMã đặt chỗ: " + bookingId);
